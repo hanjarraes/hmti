@@ -1,12 +1,16 @@
 // Here you can add other styles
 .app-header {
-    background-color: #adeb9f;
+    background-color: #2f353a;
+    border-bottom: 1px solid #2f353a;
+    color: white;
+    font-weight: 700;
 }
 .breadcrumb {
-    background-color: #d5f8ce;
+    background-color: #94bba9;
 }
 .app-footer {
-    background: #d5f8ce;
+    background: #94bba9;
+    font-weight: 700;
 }
 body {
     margin: 0;
@@ -17,4 +21,29 @@ body {
     color: #23282c;
     text-align: left;
     background-color: #e4e5e6;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-bold{
+    font-weight: 700;
+}
+.font-semi-bold{
+    font-weight: 700;
+}
+.navbar-nav .nav-link {
+    color: #73818f !important;
+
+}
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+.nav-link:focus{
+    color: #73818f;
+}
+.nav-footer{
+    color:#2f353a;
 }

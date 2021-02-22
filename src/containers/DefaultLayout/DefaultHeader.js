@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Badge, UncontrolledDropdown, DropdownItem, DropdownMenu, DropdownToggle, Nav, NavItem } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
 import PropTypes from 'prop-types';
 
-import { AppAsideToggler, AppNavbarBrand, AppSidebarToggler } from '@coreui/react';
+import { AppSidebarToggler } from '@coreui/react';
 import logo from '../../assets/img/hmti.png'
 import sygnet from '../../assets/img/brand/sygnet.svg'
 
@@ -22,10 +22,6 @@ class DefaultHeader extends Component {
     return (
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
-        {/* <AppNavbarBrand
-          full={{ src: logo, width: 35, height: 35, alt: 'CoreUI Logo' }}
-          // minimized={{ src: sygnet, width: 30, height: 30, alt: 'CoreUI Logo' }}
-        /> */}
         <div className="pl-2 pr-2">
           <img src={logo} alt="Logo" width="40" height="40"></img>
         </div>
@@ -38,12 +34,12 @@ class DefaultHeader extends Component {
           <NavItem className="px-3">
             <NavLink to="/dashboard" className="nav-link" >Dashboard</NavLink>
           </NavItem>
-          {/* <NavItem className="px-3">
-            <Link to="/users" className="nav-link">Users</Link>
+          <NavItem className="px-3">
+            <Link to="/users" className="nav-link">Contoh 1</Link>
           </NavItem>
           <NavItem className="px-3">
-            <NavLink to="#" className="nav-link">Settings</NavLink>
-          </NavItem> */}
+            <NavLink to="#" className="nav-link">Contoh 2</NavLink>
+          </NavItem>
         </Nav>
         <Nav className="ml-auto" navbar>
           {/* <NavItem className="d-md-down-none pr-3">

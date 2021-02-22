@@ -22,6 +22,7 @@ import routes from '../../routes';
 
 const DefaultAside = React.lazy(() => import('./DefaultAside'));
 const DefaultFooter = React.lazy(() => import('./DefaultFooter'));
+const FooterLast = React.lazy(() => import('./FooterLast'));
 const DefaultHeader = React.lazy(() => import('./DefaultHeader'));
 
 class DefaultLayout extends Component {
@@ -82,6 +83,7 @@ class DefaultLayout extends Component {
         <AppFooter>
           <Suspense fallback={this.loading()}>
             <DefaultFooter />
+            <FooterLast />
           </Suspense>
         </AppFooter>
       </div>

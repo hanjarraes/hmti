@@ -1,4 +1,4 @@
-import React, { useState, lazy } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { Line } from 'react-chartjs-2';
 import {
   Col,
@@ -6,17 +6,19 @@ import {
 } from 'reactstrap';
 import { loading, makeSocialBoxData, socialChartOpts } from './service'
 import PopUp from '../../Component/Modal/PopUp'
+import logo from '../../assets/img/hmti.png'
+import './index.scss'
 
 const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
 const DetailHeader = ({}) => {
     const [state, setState] = useState({
-        modalNotif: true,
+        modalNotif: false,
         goPage: 1,
       });
     const [con, setCon] = useState(1)
   return (
     <div className="animated fadeIn">
-        {/* <Row>
+        <Row>
           <Col xs="6" sm="6" lg="3">
             <Suspense fallback={loading()}>
               <Widget03 dataBox={() => ({ variant: 'facebook', friends: '89k', feeds: '459' })} >
@@ -56,7 +58,7 @@ const DetailHeader = ({}) => {
               </Widget03>
             </Suspense>
           </Col>
-        </Row> */}
+        </Row>
         <div>
             <PopUp state={state} setState={setState} con={con} setCon={setCon} />
         </div>
