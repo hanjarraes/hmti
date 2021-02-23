@@ -63,7 +63,7 @@ class DefaultFooter extends Component {
             <div className="pt-2">
               <Nav className="d-md-down-none" navbar>
                 <NavItem>
-                  <NavLink to="/dashboard" className="nav-footer" >Dashboard</NavLink>
+                  <NavLink to="/dashboard" className="nav-footer font-semi-bold" >Dashboard</NavLink>
                 </NavItem>
                 <NavItem>
                   <Link to="/users" className="nav-footer">Visi Misi</Link>

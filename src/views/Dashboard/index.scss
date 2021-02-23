@@ -11,7 +11,16 @@
     font-size: 500%;
     font-weight: bold;
     color: #fff;
-}   
+}
+
+.logo-agenda{
+    width: 25%;
+}
+
+.card-stick{
+    margin-top: -90px;
+}
+
 @media (min-width: 1025px) and (max-width: 1440px) {
     .card-logo{
         text-align: center;
@@ -25,7 +34,16 @@
         font-size: 360%;
         font-weight: bold;
         color: #fff;
-    }  
+    }
+    // Card Stick
+    .logo-agenda{
+        width: 25%;
+    }
+    .card-stick{
+        margin-top: -65px;
+    }
+    //end Card stick
+
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     .card-logo{
@@ -39,8 +57,16 @@
     .branda-text{
         font-size: 250%;
         font-weight: bold;
-        color: #fff;
     }  
+
+     // Card Stick
+     .logo-agenda{
+        width: 35%;
+    }
+    .card-stick{
+        margin-top: -65px;
+    }
+    //end Card stick
 }
 @media (min-width: 601px) and (max-width: 768px) {
     .card-logo{
@@ -56,6 +82,15 @@
         font-weight: bold;
         color: #fff;
     }  
+
+    // Card Stick
+    .logo-agenda{
+        width: 45%;
+    }
+    .card-stick{
+        margin-top: -65px;
+    }
+    //end Card stick
 }
 @media (min-width: 481px) and (max-width: 600px) {
     .card-logo{
@@ -71,11 +106,19 @@
         font-weight: bold;
         color: #fff;
     }  
+    // Card Stick
+    .logo-agenda{
+        width: 45%;
+    }
+    .card-stick{
+        margin-top: -65px;
+    }
+    //end Card stick
 }
 @media (min-width: 321px) and (max-width: 480px) {
     .card-logo{
         text-align: center;
-        margin-top: -175px;
+        margin-top: -190px;
     } 
     .branda-logo{
         width: 15%;
@@ -87,6 +130,14 @@
         color: #fff;
         padding-top: 1rem !important;
     }  
+    // Card Stick
+    .logo-agenda{
+        width: 50%;
+    }
+    .card-stick{
+        margin-top: -50px;
+    }
+    //end Card stick
 }
 @media (max-width: 320px) {
     .card-logo{
