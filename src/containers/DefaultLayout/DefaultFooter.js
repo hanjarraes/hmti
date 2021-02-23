@@ -19,7 +19,7 @@ class DefaultFooter extends Component {
     return (
       <React.Fragment>
         <Row className="col-lg-12 pb-3"> 
-          <Col xs="6" sm="6" lg="4">
+          <Col xs="12" sm="6" lg="4">
             <div className="d-flex">
               <div className="pt-3">
                 <img src={logo} alt="Logo" width="100" height="100"></img>
@@ -56,7 +56,7 @@ class DefaultFooter extends Component {
             </div>
           </Col>
 
-          <Col xs="6" sm="6" lg="4">
+          <Col xs="12" sm="6" lg="4">
             <div className="font-15 pt-3 font-bold">
               Tentang Kami
             </div>
@@ -75,7 +75,7 @@ class DefaultFooter extends Component {
             </div>
           </Col>
 
-          <Col xs="6" sm="6" lg="4">
+          <Col xs="12" sm="6" lg="4">
             <div className="font-15 pt-3 font-bold">
               Tautan
             </div>

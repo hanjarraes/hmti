@@ -1,0 +1,106 @@
+.card-logo{
+    text-align: center;
+    margin-top: -700px;
+} 
+.branda-logo{
+    width: 15%;
+    height: 15%;
+    color: #fff;
+}
+.branda-text{
+    font-size: 500%;
+    font-weight: bold;
+    color: #fff;
+}   
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -550px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 360%;
+        font-weight: bold;
+        color: #fff;
+    }  
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -400px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 250%;
+        font-weight: bold;
+        color: #fff;
+    }  
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -320px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 200%;
+        font-weight: bold;
+        color: #fff;
+    }  
+}
+@media (min-width: 481px) and (max-width: 600px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -266px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 150%;
+        font-weight: bold;
+        color: #fff;
+    }  
+}
+@media (min-width: 321px) and (max-width: 480px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -175px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 112%;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 1rem !important;
+    }  
+}
+@media (max-width: 320px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -131px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 83%;
+        font-weight: bold;
+        color: #fff;
+        padding-top: 1rem !important;
+    }  
+}

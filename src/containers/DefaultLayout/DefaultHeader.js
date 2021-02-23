@@ -22,29 +22,30 @@ class DefaultHeader extends Component {
     return (
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
-        <div className="pl-2 pr-2">
+        <div className="header-logo">
           <img src={logo} alt="Logo" width="40" height="40"></img>
         </div>
         <div className="">
           HMTI Ibnu Sina
         </div>
-        <AppSidebarToggler className="d-md-down-none" display="lg" />
-
-        <Nav className="d-md-down-none" navbar>
+        {/* <Nav className="d-md-down-none" navbar>
           <NavItem className="px-3">
             <NavLink to="/dashboard" className="nav-link" >Dashboard</NavLink>
           </NavItem>
-          <NavItem className="px-3">
-            <Link to="/users" className="nav-link">Contoh 1</Link>
-          </NavItem>
-          <NavItem className="px-3">
-            <NavLink to="#" className="nav-link">Contoh 2</NavLink>
-          </NavItem>
-        </Nav>
+        </Nav> */}
         <Nav className="ml-auto" navbar>
-          {/* <NavItem className="d-md-down-none pr-3">
-            <NavLink to="#" className="nav-link">Login</NavLink>
-          </NavItem> */}
+          <NavItem className="d-md-down-none">
+            <NavLink to="/dashboard" className="nav-link pr-5">Beranda</NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none pr-5">
+            <NavLink to="#" className="nav-link">Pengumuman</NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none pr-5">
+            <NavLink to="#" className="nav-link">Blog</NavLink>
+          </NavItem>
+          <NavItem className="d-md-down-none pr-5">
+            <NavLink to="#" className="nav-link">Repository</NavLink>
+          </NavItem>
         </Nav>
         {/*<AppAsideToggler className="d-lg-none" mobile />*/}
       </React.Fragment>

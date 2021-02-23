@@ -1,64 +1,34 @@
-import React, { useState, lazy, Suspense } from 'react';
-import { Line } from 'react-chartjs-2';
-import {
-  Col,
-  Row,
-} from 'reactstrap';
-import { loading, makeSocialBoxData, socialChartOpts } from './service'
-import PopUp from '../../Component/Modal/PopUp'
+import React, { useState} from 'react';
+import { Card, CardBody, CardHeader, Col, Row, } from 'reactstrap';
 import logo from '../../assets/img/hmti.png'
-import './index.scss'
+import PopUp from '../../Component/Modal/PopUp';
+import Video from '../../assets/video/tes1.mp4';
+import './index.scss';
 
-const Widget03 = lazy(() => import('../../views/Widgets/Widget03'));
 const DetailHeader = ({}) => {
     const [state, setState] = useState({
         modalNotif: false,
         goPage: 1,
+        activeIndex: 0,
       });
     const [con, setCon] = useState(1)
   return (
     <div className="animated fadeIn">
+        <video className="video-player" autoPlay loop muted>
+          <source src={Video } />
+        </video>
         <Row>
-          <Col xs="6" sm="6" lg="3">
-            <Suspense fallback={loading()}>
-              <Widget03 dataBox={() => ({ variant: 'facebook', friends: '89k', feeds: '459' })} >
-                <div className="chart-wrapper">
-                  <Line data={makeSocialBoxData(0)} options={socialChartOpts} height={90} />
-                </div>
-              </Widget03>
-            </Suspense>
-          </Col>
-
-          <Col xs="6" sm="6" lg="3">
-            <Suspense fallback={loading()}>
-              <Widget03 dataBox={() => ({ variant: 'twitter', followers: '973k', tweets: '1.792' })} >
-                <div className="chart-wrapper">
-                  <Line data={makeSocialBoxData(1)} options={socialChartOpts} height={90} />
-                </div>
-              </Widget03>
-            </Suspense>
-          </Col>
-
-          <Col xs="6" sm="6" lg="3">
-            <Suspense fallback={loading()}>
-              <Widget03 dataBox={() => ({ variant: 'linkedin', contacts: '500+', feeds: '292' })} >
-                <div className="chart-wrapper">
-                  <Line data={makeSocialBoxData(2)} options={socialChartOpts} height={90} />
-                </div>
-              </Widget03>
-            </Suspense>
-          </Col>
-
-          <Col xs="6" sm="6" lg="3">
-            <Suspense fallback={loading()}>
-              <Widget03 dataBox={() => ({ variant: 'google-plus', followers: '894', circles: '92' })} >
-                <div className="chart-wrapper">
-                  <Line data={makeSocialBoxData(3)} options={socialChartOpts} height={90} />
-                </div>
-              </Widget03>
-            </Suspense>
-          </Col>
-        </Row>
+          <Col xs="12" sm="12" md="12" className="card-logo">
+            <div>
+                <img src={logo} alt="Logo" className="branda-logo"></img>
+            </div>
+            <div className="branda-text pt-5">
+                HIMPUNAN MAHASISWA TEKNIK INFORMATIKA 
+                <br />
+                UNIVERSITAS IBNU SINA BATAM
+            </div>
+            </Col>
+          </Row>
         <div>
             <PopUp state={state} setState={setState} con={con} setCon={setCon} />
         </div>
