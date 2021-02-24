@@ -20,8 +20,12 @@
 .card-stick{
     margin-top: -90px;
 }
+.brt-gambar1{
+    width:100%;
+    height: 610px
+}
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1281px) and (max-width: 1440px) {
     .card-logo{
         text-align: center;
         margin-top: -550px;
@@ -35,6 +39,12 @@
         font-weight: bold;
         color: #fff;
     }
+
+    .brt-gambar1{
+        width:100%;
+        height: 450px
+    }
+
     // Card Stick
     .logo-agenda{
         width: 25%;
@@ -45,7 +55,39 @@
     //end Card stick
 
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -550px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 360%;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .brt-gambar1{
+        width:100%;
+        height: 396px
+    }
+
+    // Card Stick
+    .logo-agenda{
+        width: 25%;
+    }
+    .card-stick{
+        margin-top: -85px;
+    }
+    //end Card stick
+
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
     .card-logo{
         text-align: center;
         margin-top: -400px;
@@ -58,6 +100,40 @@
         font-size: 250%;
         font-weight: bold;
     }  
+
+    .brt-gambar1{
+        width:100%;
+        height: 313px
+    }
+
+     // Card Stick
+     .logo-agenda{
+        width: 35%;
+    }
+    .card-stick{
+        margin-top: -65px;
+    }
+    //end Card stick
+}
+
+@media (min-width: 769px) and (max-width: 800px) {
+    .card-logo{
+        text-align: center;
+        margin-top: -400px;
+    } 
+    .branda-logo{
+        width: 15%;
+        height: 15%;
+    }
+    .branda-text{
+        font-size: 250%;
+        font-weight: bold;
+    }  
+
+    .brt-gambar1{
+        width:100%;
+        height: 240px
+    }
 
      // Card Stick
      .logo-agenda{
@@ -83,6 +159,11 @@
         color: #fff;
     }  
 
+    .brt-gambar1{
+        width:100%;
+        height: 228px
+    }
+
     // Card Stick
     .logo-agenda{
         width: 45%;
@@ -106,6 +187,11 @@
         font-weight: bold;
         color: #fff;
     }  
+    .brt-gambar1{
+        width:100%;
+        height: 100%;
+        padding-bottom: 15px;
+    }
     // Card Stick
     .logo-agenda{
         width: 45%;
@@ -129,7 +215,14 @@
         font-weight: bold;
         color: #fff;
         padding-top: 1rem !important;
-    }  
+    }
+
+    .brt-gambar1{
+        width:100%;
+        height: 100%;
+        padding-bottom: 15px;
+    }
+
     // Card Stick
     .logo-agenda{
         width: 50%;
