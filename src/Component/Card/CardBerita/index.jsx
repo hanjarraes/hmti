@@ -6,7 +6,7 @@ const CardBerita = () => {
   return (
         <div>
           <Row className="px-5" data-aos="fade-right"  data-aos-anchor-placement="center-center">
-            <Col xs="12" sm="12" md="12" className="font-bold font-big px-5"> BERITA TERKINI </Col>
+            <Col xs="12" sm="12" md="12" className="font-bold font-big px-5"> Kegiatan Terbaru </Col>
           </Row>
           <Row className="px-5 pt-2 pb-4">
               <Col xs={12} sm={12} md={5} data-aos="flip-up" data-aos-anchor-placement="center-center">

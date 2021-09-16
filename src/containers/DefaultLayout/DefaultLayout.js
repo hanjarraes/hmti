@@ -4,14 +4,8 @@ import * as router from 'react-router-dom';
 import { Container } from 'reactstrap';
 
 import {
-  AppAside,
   AppFooter,
   AppHeader,
-  AppSidebar,
-  AppSidebarFooter,
-  AppSidebarForm,
-  AppSidebarHeader,
-  AppSidebarMinimizer,
   AppBreadcrumb2 as AppBreadcrumb,
   AppSidebarNav2 as AppSidebarNav,
 } from '@coreui/react';
@@ -36,22 +30,13 @@ class DefaultLayout extends Component {
 
   render() {
     return (
-      <div className="app">
-        <AppHeader fixed>
+      <div className="app d-flex align-items-center">
+        <AppHeader className="size-body">
           <Suspense  fallback={this.loading()}>
             <DefaultHeader onLogout={e=>this.signOut(e)}/>
           </Suspense>
         </AppHeader>
-        <div className="app-body">
-          <AppSidebar fixed show={false} >
-            <AppSidebarHeader />
-            <AppSidebarForm />
-            <Suspense>
-              <AppSidebarNav navConfig={navigation} {...this.props} router={router}/>
-            </Suspense>
-            <AppSidebarFooter />
-            <AppSidebarMinimizer />
-          </AppSidebar>
+        <div className="app-body overflow-hidden size-body">
           <main className="main">
             <Container fluid>
               <Suspense fallback={this.loading()}>
@@ -73,13 +58,8 @@ class DefaultLayout extends Component {
               </Suspense>
             </Container>
           </main>
-          <AppAside fixed>
-            <Suspense fallback={this.loading()}>
-              <DefaultAside />
-            </Suspense>
-          </AppAside>
         </div>
-        <AppFooter>
+        <AppFooter style={{width: "100%"}}>
           <Suspense fallback={this.loading()}>
             <DefaultFooter />
             <FooterLast />

@@ -1,17 +1,4 @@
 // Here you can add other styles
-.app-header {
-    background-color: #2f353a;
-    border-bottom: 1px solid #2f353a;
-    color: white;
-    font-weight: 700;
-}
-.breadcrumb {
-    background-color: #94bba9;
-}
-.app-footer {
-    background: #94bba9;
-    font-weight: 700;
-}
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -20,7 +7,11 @@ body {
     line-height: 1.5;
     color: #23282c;
     text-align: left;
-    background-color: #e4e5e6;
+    background-color: #ffff;
+}
+.size-body{
+    width: 70%;
+    height: 0%;
 }
 // font
 .font-big{
@@ -44,7 +35,54 @@ body {
 .font-semi-bold{
     font-weight: 600;
 }
-//font And
+// header
+.app-header {
+    background-color: #ffff;
+    border-bottom: 1px solid transparent;
+    color: #000;
+    font-size: 195%;
+    font-weight: 700;
+}
+.nav-header{
+    .nav-item{
+        .nav-link{
+            color:#000  !important;
+        }
+        .nav-link:hover{
+            color:#ffef00  !important;
+        }
+    }
+}
+//and Header
+.breadcrumb {
+    background-color: #185adb;
+}
+
+//card Stick
+.ri-file-list-3-line{
+    font-size: 5rem;
+}
+.ri-user-2-line{
+    font-size: 5rem;
+}
+.ri-folder-chart-line{
+    font-size: 5rem;
+}
+.text-stick{
+    font-size: 2rem;
+    margin-top: -18px;
+}
+// card and
+
+//card visi misi
+.img-visimisi{
+    height: 135%;
+}
+.text-visimisi{
+    font-size: 199%;
+    padding-top: 11%;
+}
+//and card visi misi
 .navbar-nav .nav-link {
     color: #73818f !important;
 
@@ -55,19 +93,80 @@ body {
 .nav-link:focus{
     color: #73818f;
 }
-.nav-footer{
-    color:#2f353a;
+//footer
+.app-footer {
+    background: #185adb;
+    color: #ffff !important;
+    font-weight: 700;
 }
+.nav-footer{
+    font-size: 186%;
+    color: #fff;
+    font-weight: 100;
+}
+.nav-footer:hover{
+    color: rgb(178, 215, 243);
+    text-decoration: none;
+}
+.footer-hmti{
+    padding-right: 9%;
+    padding-left: 9%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+.hori-footer{
+    background: #fff;
+    height: 3px;
+    border-radius: 8px;
+    margin-bottom: 2%;
+}
+.nav-item-footer{
+    font-size: 169%;
+    padding-top: 3%;
+}
+.nav-link-footer{
+    font-size: 106%;
+    color: #fff;
+    font-weight: 100;
+}
+//and footer
+
+// card devisi
+.icon-agama{
+    background-color: #1bff002e;
+    border-radius: 20%;
+    color: #7fd86f;
+    font-size: 512%;
+}
+.devisi-card{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card-devisi-body{
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 10px 8px 10px #aaaaaa;
+    height: 34rem;
+}
+// card devisi
+
+// card struktur
+.card-struktur{
+    background: #185ADB;
+    margin-top: -32px;
+    position: absolute;
+    color: #FFF;
+    width: 10%;
+}
+// and card struktur
 .main .container-fluid {
     padding: 0px 0px;
-}
-.header-logo{
-    padding-left: 2%;
-    padding-right: 1%;
 }
 .video-player{
     width: 100%;
     height: 100%;
+    border-radius: 3%;
 }
 
 .radius-hard{
@@ -92,6 +191,7 @@ body {
     width: 43.6vw;
     height: 37.4vw;
 }
+
 @media (min-width: 1281px) and (max-width: 1440px) {
     .google-map{
         width: 41.5vw;

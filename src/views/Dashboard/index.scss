@@ -1,7 +1,3 @@
-.card-logo{
-    text-align: center;
-    margin-top: -700px;
-} 
 .branda-logo{
     width: 15%;
     height: 15%;
@@ -18,18 +14,18 @@
 }
 
 .card-stick{
-    margin-top: -90px;
+    margin-top: -125px;
 }
+.shadow-stick{
+    box-shadow: 10px 10px 10px #aaaaaa;
+}
+
 .brt-gambar1{
     width:100%;
-    height: 610px
+    height: 97%
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -550px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -57,10 +53,6 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -550px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -88,10 +80,6 @@
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -400px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -117,10 +105,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 800px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -400px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -145,10 +129,6 @@
     //end Card stick
 }
 @media (min-width: 601px) and (max-width: 768px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -320px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -174,10 +154,6 @@
     //end Card stick
 }
 @media (min-width: 481px) and (max-width: 600px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -266px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -202,10 +178,6 @@
     //end Card stick
 }
 @media (min-width: 321px) and (max-width: 480px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -190px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;
@@ -233,10 +205,6 @@
     //end Card stick
 }
 @media (max-width: 320px) {
-    .card-logo{
-        text-align: center;
-        margin-top: -131px;
-    } 
     .branda-logo{
         width: 15%;
         height: 15%;

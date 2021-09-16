@@ -22,18 +22,9 @@ class DefaultHeader extends Component {
     return (
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
-        <div className="header-logo">
-          <img src={logo} alt="Logo" width="40" height="40"></img>
-        </div>
-        <div className="">
-          HMTI Ibnu Sina
-        </div>
-        {/* <Nav className="d-md-down-none" navbar>
-          <NavItem className="px-3">
-            <NavLink to="/dashboard" className="nav-link" >Dashboard</NavLink>
-          </NavItem>
-        </Nav> */}
-        <Nav className="ml-auto" navbar>
+        <div className="pr-2 py-2"><img src={logo} alt="Logo" height="70"/></div>
+        <div className="">HMTI UIS</div>
+        <Nav className="ml-auto nav-header" navbar>
           <NavItem className="d-md-down-none">
             <NavLink to="/dashboard" className="nav-link pr-5">Beranda</NavLink>
           </NavItem>
@@ -47,7 +38,6 @@ class DefaultHeader extends Component {
             <NavLink to="#" className="nav-link">Repository</NavLink>
           </NavItem>
         </Nav>
-        {/*<AppAsideToggler className="d-lg-none" mobile />*/}
       </React.Fragment>
     );
   }

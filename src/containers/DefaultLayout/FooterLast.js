@@ -16,7 +16,6 @@ class FooterLast extends Component {
 
     return (
       <React.Fragment>
-        <span> &copy; 2021 Powered By: Muhammad Hanjarraes</span>
         <span className="ml-auto">
             <Button size="sm" className="btn-facebook btn-brand icon mr-1 mb-1"><i className="fa fa-facebook"></i></Button>
             <Button size="sm" className="btn-youtube btn-brand icon mr-1 mb-1"><i className="fa fa-youtube"></i></Button>
