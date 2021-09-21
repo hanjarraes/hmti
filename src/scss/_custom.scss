@@ -1,312 +1,500 @@
 // Here you can add other styles
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #23282c;
-    text-align: left;
-    background-color: #ffff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #23282c;
+  text-align: left;
+  background-color: #ffff;
 }
-.size-body{
-    width: 70%;
-    height: 0%;
+
+.size-body {
+  width: 70%;
+  height: 0%;
 }
+
 // font
-.font-big{
-    font-size: 50px;
+.font-big {
+  font-size: 50px;
 }
-.font-medium{
-    font-size: 30px;
+
+.font-medium {
+  font-size: 30px;
 }
-.font-text{
-    font-size: 20px;
+
+.font-text {
+  font-size: 20px;
 }
-.font-12{
-    font-size: 12px;
+
+.font-12 {
+  font-size: 12px;
 }
-.font-15{
-    font-size: 15px;
+
+.font-15 {
+  font-size: 15px;
 }
-.font-bold{
-    font-weight: 700;
+
+.font-bold {
+  font-weight: 700;
 }
-.font-semi-bold{
-    font-weight: 600;
+
+.font-semi-bold {
+  font-weight: 600;
 }
+
 // header
 .app-header {
-    background-color: #ffff;
-    border-bottom: 1px solid transparent;
-    color: #000;
-    font-size: 195%;
-    font-weight: 700;
+  background-color: #ffff;
+  border-bottom: 1px solid transparent;
+  color: #000;
+  font-size: 195%;
+  font-weight: 700;
 }
-.nav-header{
-    .nav-item{
-        .nav-link{
-            color:#000  !important;
-        }
-        .nav-link:hover{
-            color:#ffef00  !important;
-        }
+
+.nav-header {
+  .nav-item {
+    .nav-link {
+      color: #000 !important;
     }
+
+    .nav-link:hover {
+      color: #ffef00 !important;
+    }
+  }
 }
+
 //and Header
 .breadcrumb {
-    background-color: #185adb;
+  background-color: #185adb;
 }
 
 //card Stick
-.ri-file-list-3-line{
-    font-size: 5rem;
+.ri-file-list-3-line {
+  font-size: 5rem;
 }
-.ri-user-2-line{
-    font-size: 5rem;
+
+.ri-user-2-line {
+  font-size: 5rem;
 }
-.ri-folder-chart-line{
-    font-size: 5rem;
+
+.ri-folder-chart-line {
+  font-size: 5rem;
 }
-.text-stick{
-    font-size: 2rem;
-    margin-top: -18px;
+
+.text-stick {
+  font-size: 2rem;
+  margin-top: -18px;
 }
+
 // card and
 
 //card visi misi
-.img-visimisi{
-    height: 135%;
+.img-visimisi {
+  height: 135%;
 }
-.text-visimisi{
-    font-size: 199%;
-    padding-top: 11%;
+
+.text-visimisi {
+  font-size: 199%;
+  padding-top: 11%;
 }
+
 //and card visi misi
 .navbar-nav .nav-link {
-    color: #73818f !important;
+  color: #73818f !important;
 
 }
+
 .navbar-nav .nav-link:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
-.nav-link:focus{
-    color: #73818f;
+
+.nav-link:focus {
+  color: #73818f;
 }
+
 //footer
 .app-footer {
-    background: #185adb;
-    color: #ffff !important;
-    font-weight: 700;
+  background: #185adb;
+  color: #ffff !important;
+  font-weight: 700;
 }
-.nav-footer{
-    font-size: 186%;
-    color: #fff;
-    font-weight: 100;
+
+.nav-footer {
+  font-size: 186%;
+  color: #fff;
+  font-weight: 100;
 }
-.nav-footer:hover{
-    color: rgb(178, 215, 243);
-    text-decoration: none;
+
+.nav-footer:hover {
+  color: rgb(178, 215, 243);
+  text-decoration: none;
 }
-.footer-hmti{
-    padding-right: 9%;
-    padding-left: 9%;
-    padding-top: 3%;
-    margin-bottom: 3%;
+
+.footer-hmti {
+  padding-right: 9%;
+  padding-left: 9%;
+  padding-top: 3%;
+  margin-bottom: 3%;
 }
-.hori-footer{
-    background: #fff;
-    height: 3px;
-    border-radius: 8px;
-    margin-bottom: 2%;
+
+.hori-footer {
+  background: #fff;
+  height: 3px;
+  border-radius: 8px;
+  margin-bottom: 2%;
 }
-.nav-item-footer{
-    font-size: 169%;
-    padding-top: 3%;
+
+.nav-item-footer {
+  font-size: 169%;
+  padding-top: 3%;
 }
-.nav-link-footer{
-    font-size: 106%;
-    color: #fff;
-    font-weight: 100;
+
+.nav-link-footer {
+  font-size: 106%;
+  color: #fff;
+  font-weight: 100;
 }
+
 //and footer
 
 // card devisi
-.icon-agama{
-    background-color: #1bff002e;
-    border-radius: 20%;
-    color: #7fd86f;
-    font-size: 512%;
+.icon-agama {
+  background-color: #1bff002e;
+  border-radius: 20%;
+  color: #7fd86f;
+  font-size: 512%;
 }
-.devisi-card{
-    display: flex;
-    font-size: 2rem;
-    font-weight: bold;
+
+.devisi-card {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.card-devisi-body{
-    border-radius: 15px;
-    border: 1px solid #DEDEDE;
-    box-shadow: 10px 8px 10px #aaaaaa;
-    height: 34rem;
+
+.card-devisi-body {
+  border-radius: 15px;
+  border: 1px solid #DEDEDE;
+  box-shadow: 10px 8px 10px #aaaaaa;
+  height: 34rem;
 }
+
 // card devisi
 
 // card struktur
-.card-struktur{
-    background: #185ADB;
-    margin-top: -32px;
-    position: absolute;
-    color: #FFF;
-    width: 10%;
+.card-struktur {
+  background: #185ADB;
+  margin-top: -32px;
+  position: absolute;
+  color: #FFF;
+  width: 10%;
 }
+
 // and card struktur
 .main .container-fluid {
-    padding: 0px 0px;
-}
-.video-player{
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
+  padding: 0px 0px;
 }
 
-.radius-hard{
-    border-radius: 20px;
-}
-.radius-soft{
-    border-radius: 10px;
-}
-
-.content-size{
-    width: 100%;
-    height: 70%;
-}
-.font-tube{
-    font-size: 40px;
-}
-.video-hmti{
-    width: 100%;
-    height: 450px;
-}
-.google-map{
-    width: 43.6vw;
-    height: 37.4vw;
+.video-player {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
 }
 
-@media (min-width: 1281px) and (max-width: 1440px) {
-    .google-map{
-        width: 41.5vw;
-        height: 60.5vw;
-    }
+.radius-hard {
+  border-radius: 20px;
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
-    .google-map{
-        width: 40.6vw;
-        height: 72vw;
-    }
+
+.radius-soft {
+  border-radius: 10px;
 }
-@media (min-width: 801px) and (max-width: 1024px) {
-    .header-logo{
-        padding-left: 3%;
-        padding-right: 2%;
-    }
-    .font-big{
-        font-size: 38px;
-    }
-    .font-medium{
-        font-size: 20px;
-    }
-    .google-map{
-        width: 38.2vw;
-        height: 90vw;
-    }
+
+.content-size {
+  width: 100%;
+  height: 70%;
 }
-@media (min-width: 769px) and (max-width: 800px) {
-    .header-logo{
-        padding-left: 3%;
-        padding-right: 2%;
-    }
-    .font-big{
-        font-size: 38px;
-    }
-    .font-medium{
-        font-size: 20px;
-    }
-    .google-map{
-        width: 86.5vw;
-        height: 95.4vw;
-    }
+
+.font-tube {
+  font-size: 40px;
 }
-@media (min-width: 601px) and (max-width: 768px) {
-    .header-logo{
-        padding-left: 33%;
-        padding-right: 2%;
-    }
-    .font-big{
-        font-size: 20px;
-    }
-    .font-medium{
-        font-size: 12px;
-    }
-    .google-map{
-        width: 86.4vw;
-        height: 99.4vw;
-    }
+
+.video-hmti {
+  width: 100%;
+  height: 450px;
 }
-@media (min-width: 481px) and (max-width: 600px) {
-    .header-logo{
-        padding-left: 29%;
-        padding-right: 2%;
-    }
-    .font-big{
-        font-size: 20px;
-    }
-    .font-medium{
-        font-size: 12px;
-    }
-    .content-size{
-        width: 100%;
-        height: 250px;
-    }
-    .google-map{
-        width: 82vw;
-        height: 90.4vw;
-    }.font-tube{
-        font-size: 34px;
-    }
+
+.google-map {
+  width: 43.6vw;
+  height: 37.4vw;
 }
-@media (min-width: 321px) and (max-width: 480px) {
-    .header-logo{
-        padding-left: 25%;
-        padding-right: 2%;
-    }
-    .font-big{
-        font-size: 18px;
-    }
-    .font-medium{
-        font-size: 8px;
-    }
-    .content-size{
-        width: 100%;
-        height: 200px;
-    }
-    .google-map{
-        width: 78vw;
-        height: 37.4vw;
-    }
-    .font-tube{
-        font-size: 22px;
-    }
+
+
+@media (max-width: 1440px) {
+
+  //card Stick
+  .card-berita .px-5 {
+    margin-left: -50px;
+  }
+
+  .card-berita .foto-card-berita {
+    margin-left: -60px;
+  }
+
+  .ri-file-list-3-line {
+    font-size: 3rem;
+  }
+
+  .ri-user-2-line {
+    font-size: 3rem;
+  }
+
+  .ri-folder-chart-line {
+    font-size: 3rem;
+  }
+
+  .text-stick {
+    font-size: 1.5rem;
+    margin-top: -18px;
+  }
+
+  // and card
+
+  //   card berita
+  .h-100 img {
+    height: 225px;
+  }
+
+  .h-80 img {
+    height: 210px;
+  }
+
+  // end card berita
+
+
+  // card-visi
+  .img-visimisi {
+    height: 131%;
+  }
+
+  .text-visimisi {
+    font-size: 180%;
+    padding-top: 13%;
+    padding-bottom: 5%;
+  }
+
+  // end card-visi
+
+
+  // card devisi
+  .card-devisi-body {
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 10px 8px 10px #aaaaaa;
+    height: 30rem;
+  }
+
+  .icon-agama {
+    border-radius: 20%;
+    font-size: 500%;
+    padding-right: 30%;
+    height: 25%;
+  }
+
+  .devisi-card {
+    font-size: 1.5rem;
+  }
+
+  .font-text {
+    font-size: 20px;
+  }
+
+  // end card devisi
+
+
+  // card struktur
+  .img-card-srtruktur {
+    // width: 200px;
+  }
+
+  .card-struktur {
+    margin-top: -32px;
+    color: #FFF;
+    width: 10%;
+  }
+
+  // and card struktur
 }
-@media (max-width: 320px) {
-    .header-logo{
-        padding-left: 15%;
-        padding-right: 2%;
-    }
-    .radius-hard{
-        display: none;
-    }
-    .content-size{
-        width: 100%;
-        height: 250px;
-    }
+
+@media (max-width: 1280px) {
+
+  //card Stick
+  .card-berita .px-5 {
+    margin-left: -50px;
+  }
+
+  .card-berita .foto-card-berita {
+    margin-left: -60px;
+  }
+
+  .ri-file-list-3-line {
+    font-size: 3rem;
+  }
+
+  .ri-user-2-line {
+    font-size: 3rem;
+  }
+
+  .ri-folder-chart-line {
+    font-size: 3rem;
+  }
+
+  .text-stick {
+    font-size: 1.5rem;
+    margin-top: -18px;
+  }
+
+  // and card
+
+  //   card berita
+  .h-100 img {
+    height: 200px;
+  }
+
+  .h-80 img {
+    height: 185px;
+  }
+
+  // end card berita
+
+  // card-visi
+  .img-visimisi {
+    height: 131%;
+  }
+
+  .text-visimisi {
+    font-size: 180%;
+    padding-top: 14%;
+  }
+
+  // end card-visi
+
+  // card devisi
+  .card-devisi-body {
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 10px 8px 10px #aaaaaa;
+    height: 32rem;
+  }
+
+  .icon-agama {
+    border-radius: 20%;
+    font-size: 500%;
+    padding-right: 33%;
+    height: 24%;
+  }
+
+  .devisi-card {
+    font-size: 1.5rem;
+  }
+
+  .font-text {
+    font-size: 20px;
+  }
+
+  // end card devisi
+
 }
+
+@media (max-width: 1024px) {
+
+  //card Stick
+  .card-berita .px-5 {
+    margin-left: -50px;
+  }
+
+  .card-berita .foto-card-berita {
+    margin-left: -60px;
+  }
+
+  .ri-file-list-3-line {
+    font-size: 3rem;
+  }
+
+  .ri-user-2-line {
+    font-size: 3rem;
+  }
+
+  .ri-folder-chart-line {
+    font-size: 3rem;
+  }
+
+  .text-stick {
+    font-size: 1.2rem;
+    margin-top: -18px;
+  }
+
+  // and card
+
+  //   card berita
+  .h-100 img {
+    height: 157px;
+  }
+
+  .h-80 img {
+    height: 142px;
+  }
+
+  // end card berita
+
+  // card-visi
+  .img-visimisi {
+    height: 131%;
+  }
+
+  .text-visimisi {
+    font-size: 165%;
+    padding-top: 16%;
+    padding-bottom: 3%;
+  }
+
+  // end card-visi
+
+  // card devisi
+  .card-devisi-body {
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 10px 8px 10px #aaaaaa;
+    height: 32rem;
+  }
+
+  .icon-agama {
+    border-radius: 20%;
+    font-size: 400%;
+    padding-right: 33%;
+    height: 19%;
+  }
+
+  .devisi-card {
+    font-size: 1.3rem;
+  }
+
+  .font-text {
+    font-size: 18px;
+  }
+
+  // end card devisi
+
+
+
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 500px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 320px) {}
