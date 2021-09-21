@@ -5,6 +5,7 @@ import CardStruktur from '../../Component/Card/CardStruktur';
 import CardVisi from '../../Component/Card/CardVisi';
 import CardBerita from '../../Component/Card/CardBerita';
 import CardDevisi from '../../Component/Card/CardDevisi';
+import CardEvent from '../../Component/Card/CardEvent';
 import Video from '../../assets/video/OpeningHMTI.mp4';
 import './index.scss';
 
@@ -42,9 +43,7 @@ const Dashboard = ({}) => {
               <CardDevisi />
           </div>
           <div className="d-flex justify-content-center">
-                <CardDevisi 
-                className={'mr-5'}
-                />
+                <CardDevisi className={'mr-5'}/>
                 <CardDevisi />
           </div>
           <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
@@ -68,6 +67,25 @@ const Dashboard = ({}) => {
               <CardStruktur nama={'Hanjarraes'} jabatan={'KOOR Program HMTI 2021/2022'} />
               <CardStruktur nama={'RHAMADHAN'} jabatan={'KOOR Media HMTI 2021/2022'} />
               <CardStruktur nama={'ANGGA'} jabatan={'KOOR Humas HMTI 2021/2022'} />
+          </div>
+          <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+            <Col xs="12" sm="12" md="12" className="font-bold font-big ">
+              EVENT AKAN DATANG
+            </Col>
+          </Row>
+          <div style={{overflowX:"auto", whiteSpace:"nowrap"}} className="d-flex">
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
+              <CardEvent/>
           </div>
       </div>
   );

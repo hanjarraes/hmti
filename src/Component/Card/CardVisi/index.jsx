@@ -5,7 +5,7 @@ import {Col, Row, } from 'reactstrap';
 const CardVisi = () => {
   return (
         <div>
-          <Row data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+          <Row>
             <Col xs="12" sm="12" md="12" className="font-bold font-big text-center"> <img src={visiMisi} alt="Logo" className="img-visimisi"/></Col>
             <Col xs="12" sm="12" md="12" className="">
               <Row className="text-visimisi">
