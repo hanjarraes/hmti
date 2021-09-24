@@ -25,7 +25,7 @@ body {
 }
 
 .font-text {
-  font-size: 20px;
+  font-size: 100%;
 }
 
 .font-12 {
@@ -98,6 +98,7 @@ body {
 .text-visimisi {
   font-size: 199%;
   padding-top: 11%;
+  text-align: justify;
 }
 
 //and card visi misi
@@ -119,6 +120,10 @@ body {
   background: #185adb;
   color: #ffff !important;
   font-weight: 700;
+}
+
+.footer-him{
+  font-size: 204%;
 }
 
 .nav-footer {
@@ -165,6 +170,8 @@ body {
   border-radius: 20%;
   color: #7fd86f;
   font-size: 512%;
+  height: 36%;
+  padding-right:29%;
 }
 
 .devisi-card {
@@ -192,6 +199,12 @@ body {
 }
 
 // and card struktur
+
+//card event
+.card-event{
+  min-width: 22%;
+  max-width: 22%;
+}
 .main .container-fluid {
   padding: 0px 0px;
 }
@@ -228,9 +241,63 @@ body {
   width: 43.6vw;
   height: 37.4vw;
 }
+   // card event
+   .card-event {
+    min-width: 38%;
+    max-width: 38%;
+  }
+
+@media  (min-width: 1441px) and (max-width: 1920px) {
+//footer
+.app-footer {
+  background: #185adb;
+  color: #ffff !important;
+  font-weight: 700;
+}
+
+.footer-him{
+  font-size: 136%;
+}
+
+.nav-footer {
+  font-size:120%;
+  color: #fff;
+  font-weight: 100;
+}
+
+.footer-hmti {
+  padding-right: 9%;
+  padding-left: 9%;
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+
+.hori-footer {
+  background: #fff;
+  height: 3px;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+
+.nav-item-footer {
+  font-size: 120%;
+  padding-top: 7%;
+}
+
+.nav-link-footer {
+  font-size: 106%;
+  color: #fff;
+  font-weight: 100;
+}
+
+//and footer
 
 
-@media (max-width: 1440px) {
+  //app-header
+  .app-header {
+    font-size: 157%;
+  }
+  //end app header
 
   //card Stick
   .card-berita .px-5 {
@@ -268,7 +335,10 @@ body {
   .h-80 img {
     height: 210px;
   }
-
+  .font-big {
+    font-size: 226%;
+    padding-left: 5% !important;
+}
   // end card berita
 
 
@@ -278,7 +348,7 @@ body {
   }
 
   .text-visimisi {
-    font-size: 180%;
+    font-size: 157%;
     padding-top: 13%;
     padding-bottom: 5%;
   }
@@ -291,22 +361,132 @@ body {
     border-radius: 15px;
     border: 1px solid #DEDEDE;
     box-shadow: 10px 8px 10px #aaaaaa;
-    height: 30rem;
+    height: 32rem;
   }
 
   .icon-agama {
     border-radius: 20%;
-    font-size: 500%;
-    padding-right: 30%;
-    height: 25%;
+    font-size: 506%;
+    height: 30%;
+    padding-right: 28%;
   }
 
   .devisi-card {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .font-text {
-    font-size: 20px;
+    font-size: 133%;
+  }
+
+  // end card devisi
+
+
+  // card struktur
+  .img-card-srtruktur {
+    // width: 200px;
+  }
+
+  .card-struktur {
+    margin-top: -32px;
+    color: #FFF;
+    width: 10%;
+  }
+
+  // and card struktur
+   // card event
+   .card-event {
+    min-width: 38%;
+    max-width: 38%;
+  }
+  // card event end
+}
+
+@media  (min-width: 1281px) and (max-width: 1440px) {
+  //app-header
+  .app-header {
+    font-size: 157%;
+  }
+  //end app header
+
+  //card Stick
+  .card-berita .px-5 {
+    margin-left: -50px;
+  }
+
+  .card-berita .foto-card-berita {
+    margin-left: -60px;
+  }
+
+  .ri-file-list-3-line {
+    font-size: 3rem;
+  }
+
+  .ri-user-2-line {
+    font-size: 3rem;
+  }
+
+  .ri-folder-chart-line {
+    font-size: 3rem;
+  }
+
+  .text-stick {
+    font-size: 1.5rem;
+    margin-top: -18px;
+  }
+
+  // and card
+
+  //   card berita
+  .h-100 img {
+    height: 225px;
+  }
+
+  .h-80 img {
+    height: 210px;
+  }
+  .font-big {
+    font-size: 226%;
+    padding-left: 5% !important;
+}
+  // end card berita
+
+
+  // card-visi
+  .img-visimisi {
+    height: 131%;
+  }
+
+  .text-visimisi {
+    font-size: 157%;
+    padding-top: 13%;
+    padding-bottom: 5%;
+  }
+
+  // end card-visi
+
+
+  // card devisi
+  .card-devisi-body {
+    border-radius: 15px;
+    border: 1px solid #DEDEDE;
+    box-shadow: 10px 8px 10px #aaaaaa;
+    height: 23rem;
+  }
+
+  .icon-agama {
+    border-radius: 20%;
+    font-size: 285%;
+    padding-right:9%;
+    height: 26%;
+  }
+
+  .devisi-card {
+    font-size: 1.3rem;
+  }
+
+  .font-text {
+    font-size: 100%;
   }
 
   // end card devisi
@@ -326,8 +506,12 @@ body {
   // and card struktur
 }
 
-@media (max-width: 1280px) {
-
+@media (min-width: 1025px) and  (max-width: 1280px) {
+ //app-header
+ .app-header {
+  font-size: 129%;
+}
+//end app header
   //card Stick
   .card-berita .px-5 {
     margin-left: -50px;
@@ -364,6 +548,10 @@ body {
   .h-80 img {
     height: 185px;
   }
+  .font-big {
+    font-size: 203%;
+    padding-left: 6% !important;
+  }
 
   // end card berita
 
@@ -373,7 +561,7 @@ body {
   }
 
   .text-visimisi {
-    font-size: 180%;
+    font-size: 125%;
     padding-top: 14%;
   }
 
@@ -384,22 +572,22 @@ body {
     border-radius: 15px;
     border: 1px solid #DEDEDE;
     box-shadow: 10px 8px 10px #aaaaaa;
-    height: 32rem;
+    height: 23rem;
   }
 
   .icon-agama {
     border-radius: 20%;
-    font-size: 500%;
-    padding-right: 33%;
-    height: 24%;
+    font-size: 259%;
+    padding-right:9%;
+    height: 21%;
   }
 
   .devisi-card {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .font-text {
-    font-size: 20px;
+    font-size: 100%;
   }
 
   // end card devisi
@@ -407,6 +595,11 @@ body {
 }
 
 @media (max-width: 1024px) {
+  //app-header
+  .app-header {
+    font-size: 100%;
+  }
+  //end app header
 
   //card Stick
   .card-berita .px-5 {
@@ -444,17 +637,21 @@ body {
   .h-80 img {
     height: 142px;
   }
+  .font-big {
+    font-size: 190%;
+    padding-left: 8% !important;
+  }
 
   // end card berita
 
   // card-visi
   .img-visimisi {
-    height: 131%;
+    height: 101%;
   }
 
   .text-visimisi {
-    font-size: 165%;
-    padding-top: 16%;
+    font-size: 87%;
+    padding-top: 0%;
     padding-bottom: 3%;
   }
 
@@ -465,13 +662,13 @@ body {
     border-radius: 15px;
     border: 1px solid #DEDEDE;
     box-shadow: 10px 8px 10px #aaaaaa;
-    height: 32rem;
+    height: 26rem;
   }
 
   .icon-agama {
     border-radius: 20%;
-    font-size: 400%;
-    padding-right: 33%;
+    font-size: 259%;
+    padding-right: 25%;
     height: 19%;
   }
 
@@ -480,12 +677,16 @@ body {
   }
 
   .font-text {
-    font-size: 18px;
+    font-size: 100%;
   }
-
   // end card devisi
 
-
+  // card event
+  .card-event {
+    min-width: 45%;
+    max-width: 45%;
+  }
+  // card event end
 
 }
 

@@ -26,7 +26,7 @@ class DefaultFooter extends Component {
               <div>
                 <img src={logo} alt="Logo" style={{width:"20%"}}/>
                 <div>
-                  <div style={{fontSize:"204%"}}>HIMPUNAN MAHASISWA TEKNIK INFORMATIKA UNIVERSITAS IBNU SINA</div>
+                  <div className="footer-him">HIMPUNAN MAHASISWA TEKNIK INFORMATIKA UNIVERSITAS IBNU SINA</div>
                     <a className="nav-footer" href="https://www.google.co.id/maps/place/Sekolah+Tinggi+Agama+Islam+(STAI)+Ibnu+Sina+Batam/@1.1453374,104.0142444,17z/data=!4m5!3m4!1s0x31d98985fa6dedd9:0x6fe29e9737d3c85e!8m2!3d1.145332!4d104.0164331">
                       Jl. Teuku Umar, Lubuk Baja Kota, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444
                     </a>

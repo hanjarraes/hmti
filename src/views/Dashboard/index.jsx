@@ -83,15 +83,7 @@ const Dashboard = ({ }) => {
           EVENT AKAN DATANG
         </Col>
       </Row>
-      <div style={{ overflowX: "auto", whiteSpace: "nowrap" }} className="d-flex">
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
-        <CardEvent />
+      <div style={{ overflowX: "auto", }} className="d-flex justify-content-center">
         <CardEvent />
         <CardEvent />
         <CardEvent />

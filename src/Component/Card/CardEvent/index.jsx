@@ -7,17 +7,17 @@ const CardEvent = ({
   className
 }) => {
   return (
-      <div className={`${className} px-2`} style={{width:"22%"}}>
+      <div className={`${className} px-2 card-event`}>
           <Card className="p-0">
             <CardHeader className="p-0">
             <img src={event} alt="Logo" className="w-100"/>
             </CardHeader>
             <CardBody>
               <div>
-                  <div className="py-3">
+                  <div className="pb-1 text-value">
                     AGAMA
                   </div>
-                  <div>
+                  <div className="text-justify font-text">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
                     laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
                   </div>
