@@ -9,7 +9,24 @@ body {
   text-align: left;
   background-color: #ffff;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+}
 .size-body {
   width: 70%;
   height: 0%;
@@ -25,7 +42,7 @@ body {
 }
 
 .font-text {
-  font-size: 100%;
+  font-size: 134%;
 }
 
 .font-12 {
@@ -165,13 +182,37 @@ body {
 //and footer
 
 // card devisi
-.icon-agama {
+.icon-humas {
   background-color: #1bff002e;
   border-radius: 20%;
+  padding-right: 7%;
+  padding-left: 7%;
   color: #7fd86f;
   font-size: 512%;
-  height: 36%;
-  padding-right:29%;
+}
+.icon-program {
+  background-color: #ff4e4e63;
+  border-radius: 20%;
+  padding-right: 7%;
+  padding-left: 7%;
+  color: #FF4E4E;
+  font-size: 512%;
+}
+.icon-media {
+  background-color: #ffb84e66;
+  border-radius: 20%;
+  padding-right: 7%;
+  padding-left: 7%;
+  color: #FFB84E;
+  font-size: 512%;
+}
+.icon-litbang {
+  background-color: #4e8aff4f;
+  border-radius: 20%;
+  padding-right: 7%;
+  padding-left: 7%;
+  color: #4E8AFF;
+  font-size: 512%;
 }
 
 .devisi-card {
@@ -192,12 +233,17 @@ body {
 // card struktur
 .card-struktur {
   background: #185ADB;
-  margin-top: -32px;
-  position: absolute;
+  position: relative;
+  margin-top: -35px;
   color: #FFF;
-  width: 10%;
+  width: 90%;
+  min-width: 90%;
+  min-height: min-content;
 }
-
+// card struktur
+.img-card-srtruktur {
+  height: 399px;
+}
 // and card struktur
 
 //card event
@@ -364,13 +410,6 @@ body {
     height: 32rem;
   }
 
-  .icon-agama {
-    border-radius: 20%;
-    font-size: 506%;
-    height: 30%;
-    padding-right: 28%;
-  }
-
   .devisi-card {
     font-size: 1.3rem;
   }
@@ -382,15 +421,10 @@ body {
   // end card devisi
 
 
-  // card struktur
-  .img-card-srtruktur {
-    // width: 200px;
-  }
 
   .card-struktur {
     margin-top: -32px;
     color: #FFF;
-    width: 10%;
   }
 
   // and card struktur
@@ -474,13 +508,6 @@ body {
     height: 23rem;
   }
 
-  .icon-agama {
-    border-radius: 20%;
-    font-size: 285%;
-    padding-right:9%;
-    height: 26%;
-  }
-
   .devisi-card {
     font-size: 1.3rem;
   }
@@ -492,15 +519,9 @@ body {
   // end card devisi
 
 
-  // card struktur
-  .img-card-srtruktur {
-    // width: 200px;
-  }
-
   .card-struktur {
     margin-top: -32px;
     color: #FFF;
-    width: 10%;
   }
 
   // and card struktur
@@ -573,13 +594,6 @@ body {
     border: 1px solid #DEDEDE;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 23rem;
-  }
-
-  .icon-agama {
-    border-radius: 20%;
-    font-size: 259%;
-    padding-right:9%;
-    height: 21%;
   }
 
   .devisi-card {
@@ -663,13 +677,6 @@ body {
     border: 1px solid #DEDEDE;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 26rem;
-  }
-
-  .icon-agama {
-    border-radius: 20%;
-    font-size: 259%;
-    padding-right: 25%;
-    height: 19%;
   }
 
   .devisi-card {

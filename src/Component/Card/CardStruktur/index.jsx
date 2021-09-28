@@ -4,17 +4,18 @@ import foto from '../../../assets/img/foto.jpg'
 
 const CardStruktur = ({
   className,
-  nama,
-  jabatan,
+  pictureStruktur,
+  nameStrukturt,
+  descStruktur,
 }) => {
   return (
-    <div className={`${className}`} style={{ marginBottom: "80px" }}>
+    <div className={`${className} px-2`}>
       <div>
-        <img src={foto} alt="Logo" className='img-card-srtruktur' />
+        <img src={pictureStruktur} alt="Logo" className='img-card-srtruktur' />
       </div>
       <div className="px-3 py-2 card-struktur">
-        <div style={{ fontWeight: "700", fontSize: "1.5rem" }}>{nama}</div>
-        <div>{jabatan}</div>
+        <div style={{ fontWeight: "700", fontSize: "1.5rem" }}>{nameStrukturt}</div>
+        <div>{descStruktur}</div>
       </div>
     </div>
   );
