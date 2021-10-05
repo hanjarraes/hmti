@@ -24,7 +24,7 @@ const Dashboard = () => {
       {/* Content */}
       <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
         <Col xs="12" sm="12" md="12" className="font-bold font-big ">
-         KEGIATAN TERBARU
+          KEGIATAN TERBARU
         </Col>
       </Row>
       <CardBerita />
@@ -50,18 +50,18 @@ const Dashboard = () => {
         </Col>
       </Row>
       <div className="d-flex overflow-auto">
-          {dataDevisi.map((data, i) =>{
-              return(
-                <CardDevisi
-                  iconDevisi={data.icon}
-                  nameDevisi={data.header} 
-                  descDevisi={data.desc}
-                  styleIcon={data.style}
-                />
-                )
-              }
-            )
-          }
+        {dataDevisi.map((data, i) => {
+          return (
+            <CardDevisi
+              iconDevisi={data.icon}
+              nameDevisi={data.header}
+              descDevisi={data.desc}
+              styleIcon={data.style}
+            />
+          )
+        }
+        )
+        }
       </div>
 
 
@@ -74,17 +74,17 @@ const Dashboard = () => {
         </Col>
       </Row>
       <div className="d-flex  overflow-auto pb-5">
-        {dataStuktur.map((data, i) =>{
-                  return(
-                    <CardStruktur
-                      pictureStruktur={data.picture}
-                      nameStrukturt={data.Name} 
-                      descStruktur={data.Jabatan}
-                    />
-                    )
-                  }
-                )
-              }
+        {dataStuktur.map((data, i) => {
+          return (
+            <CardStruktur
+              pictureStruktur={data.picture}
+              nameStrukturt={data.Name}
+              descStruktur={data.Jabatan}
+            />
+          )
+        }
+        )
+        }
       </div>
 
 
@@ -94,17 +94,17 @@ const Dashboard = () => {
         </Col>
       </Row>
       <div className="d-flex overflow-auto">
-        {dataEvent.map((data, i) =>{
-                return(
-                  <CardEvent
-                    pictureEvent={data.picture}
-                    nameEvent={data.header} 
-                    descEvent={data.desc}
-                  />
-                  )
-                }
-              )
-            }
+        {dataEvent.map((data, i) => {
+          return (
+            <CardEvent
+              pictureEvent={data.picture}
+              nameEvent={data.header}
+              descEvent={data.desc}
+            />
+          )
+        }
+        )
+        }
       </div>
     </div>
   );

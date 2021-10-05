@@ -1,218 +1,396 @@
-.branda-logo{
-    width: 15%;
-    height: 15%;
-    color: #fff;
-}
-.branda-text{
-    font-size: 500%;
-    font-weight: bold;
-    color: #fff;
+.branda-logo {
+  width: 15%;
+  height: 15%;
+  color: #fff;
 }
 
-.logo-agenda{
-    width: 25%;
+.branda-text {
+  font-size: 500%;
+  font-weight: bold;
+  color: #fff;
 }
 
-.card-stick{
-    margin-top: -125px;
-}
-.shadow-stick{
-    box-shadow: 10px 10px 10px #aaaaaa;
+.logo-agenda {
+  width: 25%;
 }
 
-.brt-gambar1{
-    width:100%;
-    height: 97%
+.card-stick {
+  margin-top: -125px;
+}
+
+.shadow-stick {
+  box-shadow: 10px 10px 10px #aaaaaa;
+}
+
+.brt-gambar1 {
+  width: 100%;
+  height: 97%
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 360%;
-        font-weight: bold;
-        color: #fff;
-    }
+  .card-devisi-body {
+    height: 96%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 450px
-    }
+  .devisi-card {
+    height: 21%;
+  }
 
-    // Card Stick
-    .logo-agenda{
-        width: 25%;
-    }
-    .card-stick{
-        margin-top: -65px;
-    }
-    //end Card stick
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 360%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 450px
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 25%;
+  }
+
+  .card-stick {
+    margin-top: -65px;
+  }
+
+  //end Card stick
 
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 360%;
-        font-weight: bold;
-        color: #fff;
-    }
+  .card-devisi-body {
+    height: 96%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 396px
-    }
+  .devisi-card {
+    height: 21%;
+  }
 
-    // Card Stick
-    .logo-agenda{
-        width: 25%;
-    }
-    .card-stick{
-        margin-top: -85px;
-    }
-    //end Card stick
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 360%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 396px
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 25%;
+  }
+
+  .card-stick {
+    margin-top: -85px;
+  }
+
+  //end Card stick
 
 }
 
 @media (min-width: 801px) and (max-width: 1024px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 250%;
-        font-weight: bold;
-    }  
+  .card-devisi-body {
+    height: 85%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 313px
-    }
+  .icon-card {
+    font-size: 3rem;
+    position: absolute;
+    left: 0;
+  }
 
-     // Card Stick
-     .logo-agenda{
-        width: 35%;
-    }
-    .card-stick{
-        margin-top: -65px;
-    }
-    //end Card stick
+
+  .devisi-card {
+    height: 20%;
+    font-size: 1rem;
+    margin-top: 50%;
+  }
+
+  .desc-card {
+    height: 40%;
+  }
+
+  .font-text {
+    font-size: 0.8rem;
+  }
+
+  .baca-card {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+  }
+
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 250%;
+    font-weight: bold;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 313px
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 35%;
+  }
+
+  .card-stick {
+    margin-top: -65px;
+  }
+
+  //end Card stick
 }
 
 @media (min-width: 769px) and (max-width: 800px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 250%;
-        font-weight: bold;
-    }  
+  .card-devisi-body {
+    height: 70%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 240px
-    }
+  .icon-card {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 3%;
+  }
 
-     // Card Stick
-     .logo-agenda{
-        width: 35%;
-    }
-    .card-stick{
-        margin-top: -65px;
-    }
-    //end Card stick
+
+  .devisi-card {
+    height: 20%;
+    font-size: 0.7rem;
+    margin-top: 50%;
+  }
+
+  .desc-card {
+    margin-top: -10%;
+    height: 35%;
+  }
+
+  .font-text {
+    font-size: 0.7rem;
+  }
+
+  .baca-card {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+  }
+
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 250%;
+    font-weight: bold;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 240px
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 35%;
+  }
+
+  .card-stick {
+    margin-top: -65px;
+  }
+
+  //end Card stick
 }
+
 @media (min-width: 601px) and (max-width: 768px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 200%;
-        font-weight: bold;
-        color: #fff;
-    }  
+  .card-devisi-body {
+    height: 72%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 228px
-    }
+  .icon-card {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 3%;
+  }
 
-    // Card Stick
-    .logo-agenda{
-        width: 45%;
-    }
-    .card-stick{
-        margin-top: -65px;
-    }
-    //end Card stick
+
+  .devisi-card {
+    height: 20%;
+    font-size: 0.7rem;
+    margin-top: 50%;
+  }
+
+  .desc-card {
+    margin-top: -10%;
+    height: 35%;
+  }
+
+  .font-text {
+    font-size: 0.7rem;
+  }
+
+  .baca-card {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+  }
+
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 200%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 228px
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 45%;
+  }
+
+  .card-stick {
+    margin-top: -65px;
+  }
+
+  //end Card stick
 }
+
 @media (min-width: 481px) and (max-width: 600px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 150%;
-        font-weight: bold;
-        color: #fff;
-    }  
-    .brt-gambar1{
-        width:100%;
-        height: 100%;
-        padding-bottom: 15px;
-    }
-    // Card Stick
-    .logo-agenda{
-        width: 45%;
-    }
-    .card-stick{
-        margin-top: -65px;
-    }
-    //end Card stick
+  .card-devisi {
+    margin-right: 17%;
+  }
+
+  .card-devisi-body {
+    height: 80%;
+    width: 190%;
+  }
+
+  .icon-card {
+    font-size: 2.7rem;
+    position: absolute;
+    left: 3%;
+  }
+
+
+  .devisi-card {
+    height: 20%;
+    font-size: 1rem;
+    margin-top: 50%;
+  }
+
+  .desc-card {
+    margin-top: -5%;
+    height: 35%;
+  }
+
+  .font-text {
+    font-size: 0.9rem;
+  }
+
+  .baca-card {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+  }
+
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 150%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .brt-gambar1 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 45%;
+  }
+
+  .card-stick {
+    margin-top: -65px;
+  }
+
+  //end Card stick
 }
+
 @media (min-width: 321px) and (max-width: 480px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 112%;
-        font-weight: bold;
-        color: #fff;
-        padding-top: 1rem !important;
-    }
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
 
-    .brt-gambar1{
-        width:100%;
-        height: 100%;
-        padding-bottom: 15px;
-    }
+  .branda-text {
+    font-size: 112%;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 1rem !important;
+  }
 
-    // Card Stick
-    .logo-agenda{
-        width: 50%;
-    }
-    .card-stick{
-        margin-top: -50px;
-    }
-    //end Card stick
+  .brt-gambar1 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  // Card Stick
+  .logo-agenda {
+    width: 50%;
+  }
+
+  .card-stick {
+    margin-top: -50px;
+  }
+
+  //end Card stick
 }
+
 @media (max-width: 320px) {
-    .branda-logo{
-        width: 15%;
-        height: 15%;
-    }
-    .branda-text{
-        font-size: 83%;
-        font-weight: bold;
-        color: #fff;
-        padding-top: 1rem !important;
-    }  
+  .branda-logo {
+    width: 15%;
+    height: 15%;
+  }
+
+  .branda-text {
+    font-size: 83%;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 1rem !important;
+  }
 }
