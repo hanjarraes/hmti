@@ -233,6 +233,10 @@ body {
 // card devisi
 
 // card struktur
+.img-card-struktur {
+  height: 399px;
+}
+
 .card-struktur {
   background: #185ADB;
   position: relative;
@@ -243,12 +247,7 @@ body {
   min-height: min-content;
 }
 
-// card struktur
-.img-card-srtruktur {
-  height: 399px;
-}
-
-// and card struktur
+// end card struktur
 
 //card event
 .card-event {
@@ -431,13 +430,14 @@ body {
   // end card devisi
 
 
-
+  // card struktur
   .card-struktur {
     margin-top: -32px;
     color: #FFF;
   }
 
-  // and card struktur
+  // end card struktur
+
   // card event
   .card-event {
     min-width: 38%;
@@ -482,7 +482,7 @@ body {
     margin-top: -18px;
   }
 
-  // and card
+  // end card
 
   //   card berita
   .h-100 img {
@@ -720,11 +720,119 @@ body {
 
 }
 
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
 
-@media (max-width: 768px) {}
+  //   card berita
+  .h-100 img {
+    height: 8rem;
+  }
 
-@media (max-width: 500px) {}
+  .margin-card {
+    margin-top: -6%;
+
+  }
+
+  .h-80 img {
+    height: 7rem;
+  }
+
+  // end card berita
+
+  // card visi 
+  .text-visimisi {
+    font-size: 1rem;
+    padding-top: 11%;
+    text-align: justify;
+  }
+
+  // end card visi
+
+  // card devisi
+  .margin-card-devisi {
+    margin-top: 5%;
+  }
+
+  // end card devisi
+
+  // card struktur
+  .img-card-struktur {
+    height: 360px;
+  }
+
+  // end struktur
+
+  // card event
+  .text-value {
+    height: 4.5rem;
+  }
+
+  // end card event
+}
+
+@media (max-width: 768px) {
+
+  // card berita
+  .h-100 img {
+    height: 7.6rem;
+  }
+
+
+  .h-80 img {
+    height: 6.6rem;
+  }
+
+  // end card berita
+
+}
+
+@media (max-width: 500px) {
+
+  // card stick
+  .text-stick {
+    font-size: 0.8rem;
+  }
+
+  // end card stick
+
+  // card berita
+  .foto-card-berita-kecil {
+    display: inline-flex;
+    // margin-right: 5px;
+  }
+
+  .h-100 img {
+    height: 8rem;
+    width: 99% !important;
+  }
+
+
+  .h-80 img {
+    height: 7rem;
+    margin-top: -40%;
+    width: 99% !important;
+  }
+
+  .h-1 {
+    margin-top: 1%;
+  }
+
+  .h-2 {
+    margin-top: -1%;
+  }
+
+  // end card berita
+
+  // card visi 
+  .card-visi-misi {
+    margin-top: 15%;
+  }
+
+  // end card visi
+
+  // card event
+
+  // card event
+}
 
 @media (max-width: 480px) {}
 

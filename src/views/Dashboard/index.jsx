@@ -30,7 +30,7 @@ const Dashboard = () => {
       <CardBerita />
 
 
-      <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+      <Row className="pb-5 card-visi-misi" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
         <Col xs="12" sm="12" md="12" className="font-bold font-big text-center">
           <div style={{ color: "#FFEF00" }}>
             DEVISI HMTI
@@ -41,7 +41,7 @@ const Dashboard = () => {
       <CardVisi />
 
 
-      <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+      <Row className="pb-5 margin-card-devisi" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
         <Col xs="12" sm="12" md="12" className="font-bold font-big text-center">
           <div style={{ color: "#FFEF00" }}>
             DEVISI HMTI

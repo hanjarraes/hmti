@@ -9,20 +9,20 @@ const CardBerita = () => {
         <Col xs={12} sm={12} md={5}>
           <img src={fotoReact} alt="Logo" className="brt-gambar1"></img>
         </Col>
-        <Col xs={12} sm={12} md={7} >
+        <Col xs={12} sm={12} md={7} className="foto-card-berita-kecil">
           <Row>
             <Col xs={12} sm={12} md={6} className='h-100'>
               <img src={fotoReact} alt="Logo" className="w-100 pb-3"></img>
             </Col>
-            <Col xs={12} sm={12} md={6} className='h-80'>
+            <Col xs={12} sm={12} md={6} className='h-80 '>
               <img src={fotoReact} alt="Logo" className="w-100"></img>
             </Col>
           </Row>
-          <Row className="pt-3">
-            <Col xs={12} sm={12} md={6} className='h-100'>
+          <Row className="pt-3 margin-card">
+            <Col xs={12} sm={12} md={6} className='h-100 h-1'>
               <img src={fotoReact} alt="Logo" className="w-100 pb-3"></img>
             </Col>
-            <Col xs={12} sm={12} md={6} className='h-80'>
+            <Col xs={12} sm={12} md={6} className='h-80 h-2'>
               <img src={fotoReact} alt="Logo" className="w-100"></img>
             </Col>
           </Row>
