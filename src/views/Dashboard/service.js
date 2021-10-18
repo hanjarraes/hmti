@@ -15,25 +15,25 @@ import angga from '../../assets/img/anggota/angga.JPG'
       icon: 'ri-microscope-line',
       style:'icon-litbang',
       header: 'PENELITIAN & PENGEMBANGAN',
-      desc: 'Ada banyak variasi tulisan Lorem Ipsum yang tersedia, tapi kebanyakan sudah mengalami perubahan bentuk, entah karena unsur humor atau kalimat yang diacak hingga nampak sangat tidak masuk akal. Jika anda ingin menggunakan tulisan Lorem Ipsum, anda harus yakin tidak ada bagian yang memalukan yang tersembunyi di tengah naskah tersebut. Semua generator Lorem Ipsum di internet cenderung untuk mengulang bagian-bagian tertentu. Karena itu inilah generator pertama yang sebenarnya di internet. Ia menggunakan kamus perbendaharaan yang terdiri dari 200 kata Latin, yang digabung dengan banyak contoh struktur kalimat untuk menghasilkan Lorem Ipsun yang nampak masuk akal. Karena itu Lorem Ipsun yang dihasilkan akan selalu bebas dari',
+      desc: 'Divisi Penelitian dan Pengembangan bertugas melaksanakan penyusunan kebajikan teknis, rencana dan program penelitian, pengembangan dan inovasi',
     },
     {
       icon: 'ri-code-box-line',
       style:'icon-program',
       header: 'PROGRAM',
-      desc: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
+      desc: 'Divisi Program bertugas mengembangkan Website serta menyusun pola dan rencana pengelolaan program kerja',
     },
     {
       icon: 'ri-camera-3-line',
       style:'icon-media',
       header: 'MEDIA',
-      desc: 'Bagian standar dari teks Lorem Ipsum yang digunakan sejak tahun 1500an kini di reproduksi kembali di bawah ini untuk mereka yang tertarik. Bagian 1.10.32 dan 1.10.33 dari "de Finibus Bonorum et Malorum" karya Cicero juga di reproduksi persis seperti bentuk aslinya, diikuti oleh versi bahasa Inggris yang berasal dari terjemahan tahun 1914 oleh H. Rackham.',
+      desc: 'Tugas Devisi Media Mengkoordinasikan yang berkaitan dengan editing dan seluruh program kerja kegiatan-kegiatan yang berhubungan',
     },
     {
       icon: 'ri-open-arm-line',
       style:'icon-humas',
       header: 'HUBUNGAN MASYARAKAT',
-      desc: 'Setelah ia mencari maknanya di di literatur klasik, ia mendapatkan sebuah sumber yang tidak bisa diragukan. Lorem Ipsum berasal dari bagian 1.10.32 dan 1.10.33 dari naskah "de Finibus Bonorum et Malorum" (Sisi Ekstrim dari Kebaikan dan Kejahatan) karya Cicero, yang ditulis pada tahun 45 sebelum masehi. BUku ini adalah risalah dari teori etika yang sangat terkenal pada masa Renaissance. Baris pertama dari Lorem Ipsum, "Lorem ipsum dolor sit amet..", berasal dari sebuah baris di bagian 1.10.32',
+      desc: 'Humas memiliki peran dalam menciptakan Citra Baik Organisasi, mengkomunikasikan segala bentuk informasi tentang organisasi baik kepada publik',
     },
   ];
 

@@ -22,12 +22,30 @@ const Dashboard = () => {
         <Col xs={1} sm={1} md={1} />
       </Row>
       {/* Content */}
+      {/* <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+        <Col xs="12" sm="12" md="12" className="font-bold font-big ">
+          KEGIATAN TERBARU
+        </Col>
+      </Row>
+      <CardBerita /> */}
       <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
         <Col xs="12" sm="12" md="12" className="font-bold font-big ">
           KEGIATAN TERBARU
         </Col>
       </Row>
-      <CardBerita />
+      <div className="d-flex overflow-auto">
+        {dataEvent.map((data, i) => {
+          return (
+            <CardEvent
+              pictureEvent={data.picture}
+              nameEvent={data.header}
+              descEvent={data.desc}
+            />
+          )
+        }
+        )
+        }
+      </div>
 
 
       <Row className="pb-5 card-visi-misi" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">

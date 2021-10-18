@@ -36,7 +36,7 @@ export default {
     },
     {
       name: 'Pengumuman',
-      url: '/charts',
+      url: '/pengumuman',
       icon: 'icon-pie-chart',
     },
     {

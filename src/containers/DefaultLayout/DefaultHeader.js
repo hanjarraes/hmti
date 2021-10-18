@@ -29,13 +29,13 @@ class DefaultHeader extends Component {
             <NavLink to="/dashboard" className="nav-link pr-5">Beranda</NavLink>
           </NavItem>
           <NavItem className="d-md-down-none pr-5">
-            <NavLink to="#" className="nav-link">Pengumuman</NavLink>
+            <NavLink to="pengumuman" className="nav-link">Pengumuman</NavLink>
           </NavItem>
           <NavItem className="d-md-down-none pr-5">
-            <NavLink to="#" className="nav-link">Blog</NavLink>
+            <NavLink to="tentang" className="nav-link">Tentang</NavLink>
           </NavItem>
           <NavItem className="d-md-down-none pr-5">
-            <NavLink to="#" className="nav-link">Repository</NavLink>
+            <NavLink to="repository" className="nav-link">Repository</NavLink>
           </NavItem>
         </Nav>
       </React.Fragment>
