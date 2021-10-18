@@ -4,12 +4,12 @@ import { Col, Row, } from 'reactstrap';
 
 const CardVisi = () => {
   return (
-    <div>
+    <div className='card-visi'>
       <Row>
         <Col xs="12" sm="12" md="12" className="font-bold font-big text-center">
           <img src={visiMisi} alt="Logo" className="img-visimisi" />
         </Col>
-        <Col xs="12" sm="12" md="12" >
+        <Col xs="12" sm="12" md="12" className='body-card-visi' >
           <Row className="text-visimisi">
             <Col xs="6" sm="6" md="6">
               Menjadikan HMTI sebagai komunitas akademik unggulan yang mampu meningkatkan kemampuan mahasiswa yang kreatif, inovatif dan berkarakter berbasis IMTAQ.

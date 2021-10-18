@@ -1,7 +1,9 @@
 // Here you can add other styles
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16,7 +18,8 @@ body {
 }
 
 /* Track */
-::-webkit-scrollbar-track {}
+::-webkit-scrollbar-track {
+}
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -24,7 +27,8 @@ body {
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {}
+::-webkit-scrollbar-thumb:hover {
+}
 
 .size-body {
   width: 70%;
@@ -120,7 +124,6 @@ body {
 //and card visi misi
 .navbar-nav .nav-link {
   color: #73818f !important;
-
 }
 
 .navbar-nav .nav-link:hover {
@@ -195,7 +198,7 @@ body {
   border-radius: 20%;
   padding-right: 7%;
   padding-left: 7%;
-  color: #FF4E4E;
+  color: #ff4e4e;
   font-size: 512%;
 }
 
@@ -204,7 +207,7 @@ body {
   border-radius: 20%;
   padding-right: 7%;
   padding-left: 7%;
-  color: #FFB84E;
+  color: #ffb84e;
   font-size: 512%;
 }
 
@@ -213,7 +216,7 @@ body {
   border-radius: 20%;
   padding-right: 7%;
   padding-left: 7%;
-  color: #4E8AFF;
+  color: #4e8aff;
   font-size: 512%;
 }
 
@@ -225,7 +228,7 @@ body {
 
 .card-devisi-body {
   border-radius: 15px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   box-shadow: 10px 8px 10px #aaaaaa;
   height: 34rem;
 }
@@ -238,10 +241,10 @@ body {
 }
 
 .card-struktur {
-  background: #185ADB;
+  background: #185adb;
   position: relative;
   margin-top: -35px;
-  color: #FFF;
+  color: #fff;
   width: 90%;
   min-width: 90%;
   min-height: min-content;
@@ -299,7 +302,6 @@ body {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
-
   //footer
   .app-footer {
     background: #185adb;
@@ -343,7 +345,6 @@ body {
   }
 
   //and footer
-
 
   //app-header
   .app-header {
@@ -396,7 +397,6 @@ body {
 
   // end card berita
 
-
   // card-visi
   .img-visimisi {
     height: 131%;
@@ -410,11 +410,10 @@ body {
 
   // end card-visi
 
-
   // card devisi
   .card-devisi-body {
     border-radius: 15px;
-    border: 1px solid #DEDEDE;
+    border: 1px solid #dedede;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 32rem;
   }
@@ -429,11 +428,10 @@ body {
 
   // end card devisi
 
-
   // card struktur
   .card-struktur {
     margin-top: -32px;
-    color: #FFF;
+    color: #fff;
   }
 
   // end card struktur
@@ -448,7 +446,6 @@ body {
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
-
   //app-header
   .app-header {
     font-size: 157%;
@@ -500,7 +497,6 @@ body {
 
   // end card berita
 
-
   // card-visi
   .img-visimisi {
     height: 131%;
@@ -514,11 +510,10 @@ body {
 
   // end card-visi
 
-
   // card devisi
   .card-devisi-body {
     border-radius: 15px;
-    border: 1px solid #DEDEDE;
+    border: 1px solid #dedede;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 23rem;
   }
@@ -533,17 +528,15 @@ body {
 
   // end card devisi
 
-
   .card-struktur {
     margin-top: -32px;
-    color: #FFF;
+    color: #fff;
   }
 
   // and card struktur
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
   //app-header
   .app-header {
     font-size: 129%;
@@ -609,7 +602,7 @@ body {
   // card devisi
   .card-devisi-body {
     border-radius: 15px;
-    border: 1px solid #DEDEDE;
+    border: 1px solid #dedede;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 23rem;
   }
@@ -623,11 +616,9 @@ body {
   }
 
   // end card devisi
-
 }
 
 @media (max-width: 1024px) {
-
   //app-header
   .app-header {
     font-size: 100%;
@@ -695,7 +686,7 @@ body {
   // card devisi
   .card-devisi-body {
     border-radius: 15px;
-    border: 1px solid #DEDEDE;
+    border: 1px solid #dedede;
     box-shadow: 10px 8px 10px #aaaaaa;
     height: 26rem;
   }
@@ -717,11 +708,9 @@ body {
   }
 
   // card event end
-
 }
 
 @media (max-width: 800px) {
-
   //   card berita
   .h-100 img {
     height: 8rem;
@@ -729,7 +718,6 @@ body {
 
   .margin-card {
     margin-top: -6%;
-
   }
 
   .h-80 img {
@@ -738,7 +726,7 @@ body {
 
   // end card berita
 
-  // card visi 
+  // card visi
   .text-visimisi {
     font-size: 1rem;
     padding-top: 11%;
@@ -770,29 +758,56 @@ body {
 }
 
 @media (max-width: 768px) {
-
   // card berita
   .h-100 img {
     height: 7.6rem;
   }
-
 
   .h-80 img {
     height: 6.6rem;
   }
 
   // end card berita
-
 }
 
 @media (max-width: 500px) {
-
   // card stick
   .text-stick {
     font-size: 0.8rem;
   }
 
   // end card stick
+
+  // card event
+
+  .card-event .card {
+    width: 150%;
+  }
+
+  .card-event {
+    margin-right: 20%;
+  }
+
+  .text-value {
+    height: 3.6rem;
+    font-size: 1.2rem;
+  }
+
+  // end card event
+
+  // card devisi
+  .card-devisi-body {
+    height: 84% !important;
+  }
+
+  .devisi-card {
+    margin-bottom: 7%;
+  }
+
+  .baca-card {
+    // margin-top: 2%;
+  }
+  // end card devisi
 
   // card berita
   .foto-card-berita-kecil {
@@ -804,7 +819,6 @@ body {
     height: 8rem;
     width: 99% !important;
   }
-
 
   .h-80 img {
     height: 7rem;
@@ -822,18 +836,35 @@ body {
 
   // end card berita
 
-  // card visi 
+  // card visi
   .card-visi-misi {
     margin-top: 15%;
   }
 
   // end card visi
-
-  // card event
-
-  // card event
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  // card stick
+  .ri-file-list-3-line {
+    font-size: 2.5rem;
+  }
+  
+  .ri-user-2-line {
+    font-size: 2.5rem;
+  }
+  
+  .ri-folder-chart-line {
+    font-size: 2.5rem;
+  }
+ .text-stick {
+  font-size: 0.7rem;
+  margin-top: -20%;
+}
 
-@media (max-width: 320px) {}
+// end card stick
+}
+
+@media (max-width: 320px) {
+  
+}
