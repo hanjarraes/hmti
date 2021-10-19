@@ -23,7 +23,7 @@ class DefaultFooter extends Component {
           <hr className="hori-footer"/>
         </Col>
           <Col xs="12" sm="6" lg="4">
-              <div>
+              <div className='footer'>
                 <img src={logo} alt="Logo" style={{width:"20%"}}/>
                 <div>
                   <div className="footer-him">HIMPUNAN MAHASISWA TEKNIK INFORMATIKA UNIVERSITAS IBNU SINA</div>
@@ -33,13 +33,13 @@ class DefaultFooter extends Component {
                 </div>
                 <div className="d-flex align-items-baseline" style={{fontWeight:"100"}}>
                   <i className="ri-mail-fill pr-2" style={{fontSize:"221%"}}/>
-                  <div style={{fontSize:"150%"}}>
+                  <div style={{fontSize:"150%"}} className='text-footer'>
                     hmti@uis.ac.id
                   </div>
                 </div>
                 <div className="d-flex align-items-baseline" style={{ fontWeight:"100"}}>
                   <i className="ri-phone-fill pr-2" style={{fontSize:"221%"}}/>
-                  <div style={{fontSize:"150%"}}>
+                  <div style={{fontSize:"150%"}} className='text-footer'>
                     085263132152
                   </div>
                 </div>

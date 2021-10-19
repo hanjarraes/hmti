@@ -11,7 +11,7 @@ const CardStick = () => {
                             <i class="ri-file-list-3-line"/>
                             <div className="d-flex text-stick">
                                 <div className="pr-2">16</div>
-                                <div style={{color:"#B0B0B0"}}>Kegiatan Aktiv</div>
+                                <div style={{color:"#B0B0B0"}} className='mm'>Kegiatan Aktiv</div>
                             </div>
                         </div>
                     </Col>
@@ -20,7 +20,7 @@ const CardStick = () => {
                             <i class="ri-user-2-line"/>
                             <div className="d-flex text-stick">
                                 <div className="pr-2">26</div>
-                                <div style={{color:"#B0B0B0"}}>Anggota</div>
+                                <div style={{color:"#B0B0B0"}} className='mm'>Anggota</div>
                             </div>
                         </div>
                     </Col>
@@ -29,7 +29,7 @@ const CardStick = () => {
                             <i class="ri-folder-chart-line"/>
                             <div className="d-flex text-stick">
                                 <div className="pr-2">9</div>
-                                <div style={{color:"#B0B0B0"}}>Repository</div>
+                                <div style={{color:"#B0B0B0"}} className='mm'>Repository</div>
                             </div>
                         </div>
                     </Col>

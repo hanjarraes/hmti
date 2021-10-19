@@ -29,7 +29,7 @@ const Dashboard = () => {
       </Row>
       <CardBerita /> */}
       <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
-        <Col xs="12" sm="12" md="12" className="font-bold font-big ">
+        <Col xs="12" sm="12" md="12" className="font-bold font-big header-card-event">
           KEGIATAN TERBARU
         </Col>
       </Row>
@@ -107,7 +107,7 @@ const Dashboard = () => {
 
 
       <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
-        <Col xs="12" sm="12" md="12" className="font-bold font-big ">
+        <Col xs="12" sm="12" md="12" className="font-bold font-big header-card-event ">
           EVENT AKAN DATANG
         </Col>
       </Row>

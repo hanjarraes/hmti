@@ -849,22 +849,147 @@ body {
   .ri-file-list-3-line {
     font-size: 2.5rem;
   }
-  
+
   .ri-user-2-line {
     font-size: 2.5rem;
   }
-  
+
   .ri-folder-chart-line {
     font-size: 2.5rem;
   }
- .text-stick {
-  font-size: 0.7rem;
-  margin-top: -20%;
-}
+  .text-stick {
+    font-size: 0.7rem;
+    margin-top: -20%;
+  }
 
-// end card stick
+  // end card stick
 }
 
 @media (max-width: 320px) {
+
+  // nav
+  .logo-hmti img{
+    height: 2.8rem;
+  }
+  // end nav
+
+  // card stick
+  .shadow-stick{
+    margin-top: 53%;
+    margin-left: -10%;
+  }
+
+  .ri-file-list-3-line {
+    font-size: 2rem;
+  }
+
+  .ri-user-2-line {
+    font-size: 2rem;
+  }
+
+  .ri-folder-chart-line {
+    font-size: 2rem;
+  }
+  .text-stick {
+    font-size: 0.5rem;
+    margin-top: -20%;
+  }
+
+  .mm {
+    margin-left: -14%;
+  }
+
+  // end card stick
+
+  // card event 
+  .header-card-event{
+    margin-bottom: -10%;
+  }
+  .card-event {
+    margin-right: 48%;
+  }
+
+  .card-event .card{
+    width: 230% !important;
+  }
+
+  .text-value{
+    font-size: 1rem;
+  }
+
+  .font-text{
+    font-size: 0.7rem !important;
+  }
+
+  // end card event
+
+  // card visi
+  .img-visimisi{
+    width: 250px;
+  }
+  // end card visi
+
+  // card devisi
+  .devisi-card{
+    margin-top: 41% !important;
+    margin-bottom: 12% !important;
+  }
+  // end card devisi
+
+  // card struktur
+  .pa-ca-st{
+    padding: 1% !important;
+  }
   
+  .img-card-struktur{
+  height: 10rem;
+  }
+
+  .card-struktur{
+    padding: 0 !important;
+  }
+
+  .nama-struktur {
+    font-size: 0.8rem !important;
+    padding-left: 4%;
+  }
+
+  .desc-struktur{
+    font-size: 0.6rem !important;
+    padding-left: 4%;
+  }
+
+  // end card struktur
+
+  // footer
+  .footer img{
+    width: 30% !important;
+  }
+
+  .footer-him{
+    font-size: 1rem;
+    margin-bottom:5%;
+  }
+
+  .nav-footer{
+    font-size: 0.9rem;
+  }
+
+  .footer i{
+    font-size: 0.9rem !important;
+    // margin-bottom: 1%;
+     // margin-top: 5%;
+  }
+
+  .text-footer{
+    font-size: 0.9rem !important;
+  }
+
+  .nav-item-footer{
+    margin-top: 2%;
+    font-size: 1rem;
+  }
+
+  // end footer
+
 }
