@@ -18,9 +18,9 @@ const CardDevisi = ({
           <div className="py-3 devisi-card">{nameDevisi}</div>
           <div className="font-text text-justify overflow-auto desc-card" style={{ maxHeight: "220px" }}>{descDevisi}</div>
         </CardBody>
-        <div className="font-text text-justify pl-3 pb-3 baca-card">
+        {/* <div className="font-text text-justify pl-3 pb-3 baca-card">
           Baca Selengkapnya
-        </div>
+        </div> */}
       </Card>
     </div>
   );

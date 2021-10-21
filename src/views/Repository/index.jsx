@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row, } from 'reactstrap';
 import CardEvent from '../../Component/Card/CardEvent';
-import { dataEvent } from '../Dashboard/service';
+import { DataRepository } from '../Dashboard/service';
 import Repository from '../../assets/img/Repository.png';
 import '../Dashboard/index.scss';
 
@@ -26,7 +26,7 @@ const Dashboard = () => {
         </Col>
       </Row>
       <div className="d-flex overflow-auto">
-        {dataEvent.map((data, i) => {
+        {DataRepository.map((data, i) => {
           return (
             <CardEvent
               pictureEvent={data.picture}

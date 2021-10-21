@@ -1,5 +1,5 @@
 import event from '../../assets/img/event.jpg'
-import foto from '../../assets/img/foto.jpg'
+import eventFun from '../../assets/img/event/eventFun.JPG'
 import anam from '../../assets/img/anggota/anam.JPG'
 import yudi from '../../assets/img/anggota/yudi.JPG'
 import panji from '../../assets/img/anggota/panji.JPG'
@@ -8,6 +8,7 @@ import alip from '../../assets/img/anggota/alip.JPG'
 import hanjar from '../../assets/img/anggota/hanjar.JPG'
 import madan from '../../assets/img/anggota/madan.JPG'
 import angga from '../../assets/img/anggota/angga.JPG'
+import afifah from '../../assets/img/anggota/afifah.JPG'
 
 
   export const dataDevisi = [
@@ -39,13 +40,13 @@ import angga from '../../assets/img/anggota/angga.JPG'
 
   export const dataEvent = [
     {
-      picture: event,
-      header: 'AGAMA',
+      picture: eventFun,
+      header: 'Fun Day HMTI 2021/2022',
       desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
     },
     {
       picture: event,
-      header: 'PENELITIAN & PENGEMBANGAN',
+      header: 'Webinar How To Become a Greate Web Developer',
       desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
     },
     {
@@ -60,50 +61,58 @@ import angga from '../../assets/img/anggota/angga.JPG'
     },
   ];
 
+  export const DataRepository = [
+    {
+      picture: eventFun,
+      header: 'Fun Day HMTI 2021/2022',
+      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
+    },
+  ];
+
   export const dataStuktur =[
     {
       picture: yudi,
-      Name: 'Yudi',
+      Name: 'Yudi pratama putra',
       Jabatan: 'Ketua HMTI 2021/2022',
     },
     {
       picture: anam,
-      Name: 'Choirul',
+      Name: 'Choirul Anam',
       Jabatan: 'Wakil Ketua HMTI 2021/2022',
     },
     {
       picture: panji,
-      Name: 'Panji',
+      Name: 'Panji Priantono Putra',
       Jabatan: 'Sekjen HMTI 2021/2022',
     },
     {
       picture: pika,
-      Name: 'Reficha',
+      Name: 'Reficha Ardhia Pranata',
       Jabatan: 'Seketaris HMTI 2021/2022',
     },
     {
-      picture: pika,
-      Name: 'Afifah',
+      picture: afifah,
+      Name: 'Afifah Indah Sulistyowati',
       Jabatan: 'Bendahara HMTI 2021/2022',
     },
     {
       picture: alip,
-      Name: 'Alif',
+      Name: 'Alif Sahputra',
       Jabatan: 'KOOR Litbang HMTI 2021/2022',
     },
     {
       picture: hanjar,
-      Name: 'Hanjarraes',
+      Name: 'Muhammad Hanjarraes',
       Jabatan: 'Koor Program HMTI 2021/2022',
     },
     {
       picture: madan,
-      Name: 'Rhamadhan',
+      Name: 'Ramadhan Pratama Putra',
       Jabatan: 'Koor Media HMTI 2021/2022',
     },
     {
       picture: angga,
-      Name: 'Angga',
+      Name: 'Muhammad Wahyu Angga S',
       Jabatan: 'Koor Humas HMTI 2021/2022',
     },
   ]

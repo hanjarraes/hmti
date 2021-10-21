@@ -17,7 +17,8 @@ const CardEvent = ({
             </CardHeader>
             <CardBody>
               <div>
-                  <div className="pb-1 text-value">{nameEvent}</div>
+                  <div style={{color:"#697281", fontWeight:"500"}}>28 November 2021</div>
+                  <div className="pb-3 text-value">{nameEvent}</div>
                   <div className="text-justify font-text">{descEvent}</div>
               </div>
             </CardBody>

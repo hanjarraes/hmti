@@ -14,7 +14,7 @@ const CardStruktur = ({
         <img src={pictureStruktur} alt="Logo" className='img-card-struktur' />
       </div>
       <div className="px-3 py-2 card-struktur">
-        <div style={{ fontWeight: "700", fontSize: "1.5rem" }} className='nama-struktur'>{nameStrukturt}</div>
+        <div style={{ fontWeight: "700", fontSize: "0.9rem" }} className='nama-struktur'>{nameStrukturt}</div>
         <div className='desc-struktur'>{descStruktur}</div>
       </div>
     </div>
