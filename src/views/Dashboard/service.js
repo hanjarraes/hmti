@@ -41,21 +41,25 @@ import afifah from '../../assets/img/anggota/afifah.JPG'
   export const dataEvent = [
     {
       picture: eventFun,
+      date: '28 November 2021',
       header: 'Fun Day HMTI 2021/2022',
-      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
+      desc: 'Fun day  sengaja dikemas dengan konsep  yang  santai  dengan harapan  peserta  bisa merasakan  ketrenangan berpikir dan  fisik kembali  fresh. Fun day sengaja dicreate untuk  memberikan  relaksasi terhadap peserta',
     },
     {
       picture: event,
+      date: '28 November 2021',
       header: 'Webinar How To Become a Greate Web Developer',
       desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
     },
     {
       picture: event,
+      date: '28 November 2021',
       header: 'PROGRAM',
       desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
     },
     {
       picture: event,
+      date: '28 November 2021',
       header: 'MEDIA',
       desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
     },
@@ -64,8 +68,9 @@ import afifah from '../../assets/img/anggota/afifah.JPG'
   export const DataRepository = [
     {
       picture: eventFun,
+      date: '28 November 2021',
       header: 'Fun Day HMTI 2021/2022',
-      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
+      desc: 'Fun day  sengaja dikemas dengan konsep  yang  santai  dengan harapan  peserta  bisa merasakan  ketrenangan berpikir dan  fisik kembali  fresh. Fun day sengaja dicreate untuk  memberikan  relaksasi terhadap peserta',
     },
   ];
 

@@ -12,7 +12,7 @@ const CardVisi = () => {
         <Col xs="12" sm="12" md="12" className='body-card-visi' >
           <Row className="text-visimisi">
             <Col xs="6" sm="6" md="6">
-              Menjadikan HMTI sebagai komunitas akademik unggulan yang mampu meningkatkan kemampuan mahasiswa yang kreatif, inovatif dan berkarakter berbasis IMTAQ.
+              Menjadikan HMTI sebagai organisasi akademik unggulan yang mampu meningkatkan kemampuan mahasiswa yang kreatif, inovatif dan berkarakter berbasis IMTAQ.
             </Col>
             <Col xs="6" sm="6" md="6">
               <table>
