@@ -10,6 +10,13 @@ import madan from '../../assets/img/anggota/madan.JPG'
 import angga from '../../assets/img/anggota/angga.JPG'
 import afifah from '../../assets/img/anggota/afifah.JPG'
 
+//event foto
+import demisioner from '../../assets/img/event/demisioner.jpg'
+import ulangTahun from '../../assets/img/event/ulang-tahun.jpg'
+import studyClub from '../../assets/img/event/studyClub.jpg'
+import Webnas from '../../assets/img/event/Webnas.jpg'
+import interview from '../../assets/img/event/interview.jpg'
+import rapatHmti from '../../assets/img/event/rapatHmti.JPG'
 
   export const dataDevisi = [
     {
@@ -40,37 +47,67 @@ import afifah from '../../assets/img/anggota/afifah.JPG'
 
   export const dataEvent = [
     {
+      picture: studyClub,
+      date: '26 September 2021',
+      header: 'Study Club',
+      desc: 'Sebuah kegiatan yang diselenggarakan oleh organisasi HMTI,yang didalamnya membahas basic programming crud modeling oleh pemateri calvin wijaya selaku demisioner ketua HMTI periode 2019/2020',
+    },
+    {
       picture: eventFun,
-      date: '28 November 2021',
-      header: 'Fun Day HMTI 2021/2022',
+      date: '10 Oktober 2021',
+      header: 'Fun Day HMTI',
       desc: 'Fun day  sengaja dikemas dengan konsep  yang  santai  dengan harapan  peserta  bisa merasakan  ketrenangan berpikir dan  fisik kembali  fresh. Fun day sengaja dicreate untuk  memberikan  relaksasi terhadap peserta',
     },
     {
-      picture: event,
-      date: '28 November 2021',
-      header: 'Webinar How To Become a Greate Web Developer',
-      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
-    },
-    {
-      picture: event,
-      date: '28 November 2021',
-      header: 'PROGRAM',
-      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
-    },
-    {
-      picture: event,
-      date: '28 November 2021',
-      header: 'MEDIA',
-      desc: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt utlaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam',
+      picture: Webnas,
+      date: '24 Oktober 2021',
+      header: 'Webinar Nasional',
+      desc: 'Kegiatan yang dilaksanakan oleh organisasi HMTI , dalam rangka membahas tentang how to become a great web developer disampaikan oleh Yein Narayana selaku Mentor at buildwithangga Also Founder and CEO at mejadokter.com',
     },
   ];
 
   export const DataRepository = [
     {
+      picture: demisioner,
+      date: '5 September 2021 2021',
+      header: 'Pertemuan Dengan Domisioner',
+      desc: 'Sebuah kegiatan yang dilakukan oleh anggota HMTI dalam rangka membahas Milad 8 tahun HMTI Universitas Ibnu Sina Batam',
+    },
+    // {
+    //   picture: ulangTahun,
+    //   date: '13 September 2021',
+    //   header: 'Ulang Tahun HMTI',
+    //   desc: 'Sebuah kegiatan yang dilakukan oleh anggota HMTI dalam rangka milad 8 tahun HMTI yang berisi sharing session bersama para demisioner yang didalamnya terdapat cuplikan serta kata sambutan dari pengurus HMTI yang baru serta harapan kedepannya',
+    // },
+    {
+      picture: interview,
+      date: '18 September 2021',
+      header: 'Interview',
+      desc: 'kegiatan interview yang dilaksanakan pada tanggal  18 September 2021 dalam rangka penerimaan anggota baru',
+    },
+    {
+      picture: rapatHmti,
+      date: '18 September 2021',
+      header: 'Rapat Hmti',
+      desc: 'kegiatan yang dilaksanakan pada tanggal 02 oktober 2021 dalam rangka evaluasi program divisi masing - masing , serta penambahan sekretaris dan bendahara baru',
+    },
+    {
+      picture: studyClub,
+      date: '26 September 2021',
+      header: 'Study Club',
+      desc: 'Sebuah kegiatan yang diselenggarakan oleh organisasi HMTI,yang didalamnya membahas basic programming crud modeling oleh pemateri calvin wijaya selaku demisioner ketua HMTI periode 2019/2020',
+    },
+    {
       picture: eventFun,
-      date: '28 November 2021',
-      header: 'Fun Day HMTI 2021/2022',
+      date: '10 Oktober 2021',
+      header: 'Fun Day HMTI',
       desc: 'Fun day  sengaja dikemas dengan konsep  yang  santai  dengan harapan  peserta  bisa merasakan  ketrenangan berpikir dan  fisik kembali  fresh. Fun day sengaja dicreate untuk  memberikan  relaksasi terhadap peserta',
+    },
+    {
+      picture: Webnas,
+      date: '24 Oktober 2021',
+      header: 'Webinar Nasional',
+      desc: 'Kegiatan yang dilaksanakan oleh organisasi HMTI , dalam rangka membahas tentang how to become a great web developer disampaikan oleh Yein Narayana selaku Mentor at buildwithangga Also Founder and CEO at mejadokter.com',
     },
   ];
 

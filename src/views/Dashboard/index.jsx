@@ -16,10 +16,10 @@ const Dashboard = () => {
       <video className="video-player" autoPlay loop muted>
         <source src={Video} />
       </video>
-      <Row className="card-stick pb-5" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-        <Col xs={1} sm={1} md={1} />
-        <Col xs={10} sm={10} md={10}> <CardStick /> </Col>
-        <Col xs={1} sm={1} md={1} />
+      <Row className="card-stick" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <Col xs={1} sm={1} md={1} lg={1} />
+        <Col xs={10} sm={10} md={10} lg={10} > <CardStick /> </Col>
+        <Col xs={1} sm={1} md={1} lg={1} />
       </Row>
       {/* Content */}
       {/* <Row className="pb-5" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
@@ -119,6 +119,7 @@ const Dashboard = () => {
               pictureEvent={data.picture}
               nameEvent={data.header}
               descEvent={data.desc}
+              dateEvent={data.date}
             />
           )
         }

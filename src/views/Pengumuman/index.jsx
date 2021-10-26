@@ -32,6 +32,7 @@ const Dashboard = () => {
               pictureEvent={data.picture}
               nameEvent={data.header}
               descEvent={data.desc}
+              dateEvent={data.date}
             />
           )
         }
@@ -51,6 +52,7 @@ const Dashboard = () => {
               pictureEvent={data.picture}
               nameEvent={data.header}
               descEvent={data.desc}
+              dateEvent={data.date}
             />
           )
         }

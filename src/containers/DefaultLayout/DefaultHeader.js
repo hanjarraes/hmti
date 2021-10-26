@@ -21,7 +21,7 @@ class DefaultHeader extends Component {
 
     return (
       <React.Fragment>
-        <AppSidebarToggler className="d-lg-none" display="md" mobile />
+        {/* <AppSidebarToggler className="d-lg-none" display="md" mobile /> */}
         <div className="pr-2 py-2 logo-hmti"><img src={logo} alt="Logo" height="70"/></div>
         <div className="">HMTI UIS</div>
         <Nav className="ml-auto nav-header" navbar>

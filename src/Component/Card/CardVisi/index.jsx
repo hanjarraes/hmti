@@ -11,10 +11,10 @@ const CardVisi = () => {
         </Col>
         <Col xs="12" sm="12" md="12" className='body-card-visi' >
           <Row className="text-visimisi">
-            <Col xs="6" sm="6" md="6">
+            <Col xs={12} sm={12} md={6} lg={6} className="pt-2">
               Menjadikan HMTI sebagai organisasi akademik unggulan yang mampu meningkatkan kemampuan mahasiswa yang kreatif, inovatif dan berkarakter berbasis IMTAQ.
             </Col>
-            <Col xs="6" sm="6" md="6">
+            <Col xs={12} sm={12} md={6} lg={6} className="pt-2">
               <table>
                 <tr>
                   <td className="d-flex px-4">1.</td>
